@@ -8,6 +8,10 @@
 ## Cost and Features
 ![Description](Link to Pic)
 
+# Cost of the Calculator 
+* our Calculator will sum around 800 Rs , having all neccesary features required for all students 
+* Cost and features mainly focus on most of the important requirments we reasearched for a calculator.
+
 # Features that are integrated in our project calculator are : 
 * Will perform basic Addition,Subtraction,divison,Multiplication with validtaion
 * Also it can perform long division approach with remainder and quotient as a result
