@@ -42,6 +42,18 @@ int multiply(int operand1, int operand2);
 * @return integer value of the operand1 / operand2
 * @note returns 0 for divide by 0 error
 */
-int divide(int operand1, int operand2);
+float divide(float operand1, float operand2);
+
+int GCD(int operand1, int operand2);
+
+float SINE(float operand1);
+float COS(float operand1);
+float TAN(float operand1);
+float power(float operand1, float operand2);
+
+float antilog(float operand1, float operand2);
+
+float log(float operand1);
+
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
