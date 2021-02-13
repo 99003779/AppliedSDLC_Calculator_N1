@@ -25,14 +25,19 @@ float divide(float operand1, float operand2)
 // LCM 
 float LCM(int operand1,int operand2)
 {
-
     int maximum = 0;
-    maximum = (operand1 > operand2) ? operand1 : operand2;
-    for(int i=0;i<maximum;i++)
+    maximum = ((operand1 > operand2) ? operand1 : operand2);
+    for (int i=0;i<maximum;i++)
     {
-       if(maximum % operand1 == 0 && maximum % operand2 == 0) 
-       {
-           return maximum;
-       }
+        if (maximum % operand1 == 0 && maximum % operand2 == 0)
+        {
+             return maximum;
+        }
     }
 }
+// power
+float power(float operand1,float operand2)
+{
+    return pow(operand1,operand2);
+}
+
