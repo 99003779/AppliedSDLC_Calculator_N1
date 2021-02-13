@@ -22,3 +22,16 @@ float divide(float operand1, float operand2)
     else
         return operand1 / operand2;
 }
+float LCM(int operand1,int operand2)
+{
+
+    int maximum = 0;
+    maximum = (operand1 > operand2) ? operand1 : operand2;
+    for(int i=0;i<maximum;i++)
+    {
+       if(maximum % operand1 == 0 && maximum % operand2 == 0) 
+       {
+           return maximum;
+       }
+    }
+}
