@@ -7,6 +7,19 @@
 -- Content 
 ## Cost and Features
 ![Description](Link to Pic)
+
+# Features that are integrated in our project calculator are : 
+* Will perform basic Addition,Subtraction,divison,Multiplication with validtaion
+* Also it can perform long division approach with remainder and quotient as a result
+* Addition of Hexa decimal number
+* Calucaltion of GCD
+* Basic Trigonometry operation like Sine,Cos,Tan
+* perofrming the power function i.e calucalting the power of the number
+* Integrated with operation like logrithimic and Antilog calculation
+* Factorial of numbers and Exponential 
+* Mean of the numbers
+* Conversion of numbers
+
 -- Content 
 ## Defining Our System
     -- TBD
