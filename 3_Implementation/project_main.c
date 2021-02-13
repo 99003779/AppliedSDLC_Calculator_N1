@@ -145,6 +145,7 @@ void calculator_menu(void)
         case 12:
             exit(0);
             break;
+        
         default:
             printf("\n\t---It should never come here---\n");
     }
