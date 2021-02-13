@@ -40,4 +40,13 @@ float power(float operand1,float operand2)
 {
     return pow(operand1,operand2);
 }
-
+//combination
+float combination(float operand1,float operand2)
+{
+    return factorial_calc(operand1) / factorial_calc(operand1-operand2)*factorial_calc(operand2);
+}
+//permutation
+float permutation(float operand1,float operand2)
+{
+    return factorial_calc(operand1) / factorial(operand1-operand2);
+}
