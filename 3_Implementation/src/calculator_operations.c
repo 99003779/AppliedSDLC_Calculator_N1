@@ -22,6 +22,7 @@ float divide(float operand1, float operand2)
     else
         return operand1 / operand2;
 }
+// LCM 
 float LCM(int operand1,int operand2)
 {
 
