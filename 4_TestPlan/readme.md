@@ -9,7 +9,7 @@
 |  H_03       |bracket should be open and close if used|  (2x-3=0|(2x-3=0) |Invalid output|Scenario based |
 |  H_04   |    Putting values in valid format| vales to be performed|display valid output|Error if invalid |Scenario based    |
 |  H_05       |= sign in the expression  |  2x=3y=10  |valid result|valid result|Boundary based    |
-|  H_06 | When n\&lt;r for nPr | n=2 r=3 | Error | Error | Scenario |
+|  H_06 | When n<r for nPr | n=2 r=3 | Error | Error | Scenario |
 
 
 ## Table no: Low level test plan
