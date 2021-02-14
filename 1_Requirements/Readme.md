@@ -58,5 +58,5 @@
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+![Low Level Requirements](https://user-images.githubusercontent.com/78871033/107877502-e6e76f00-6ef2-11eb-9db1-a903f1b9325b.png)
+
