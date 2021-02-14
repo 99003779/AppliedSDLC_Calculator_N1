@@ -49,7 +49,7 @@
 
 ## How:
 
-* Our calculator is a simply a tool that student can efficienlty use it at th=ime of most basic calulcation.
+* Our calculator is a simple tool that any user can efficienlty use at the time of most basic as well as complex calulcations.
 
 # Detail requirements
 ## High Level Requirements:
