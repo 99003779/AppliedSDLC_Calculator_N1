@@ -53,8 +53,13 @@
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+|**id**  |**Requirments**  | **Description**  |**Status**  |
+| --- | --- | --- | --- |
+|HL001 | CALCULATING NUMBERS | BASIC ARITHMETIC CALCULATION- Addition- Subtraction- Division- multiplication |Implemented |
+|HL002 |LOG aNTILOG &amp; POWER OPERATIONS | SOLVING POLYNOMIALEQUATION UP TO TWO DEGREE.- Zeros- factors|InFuture |
+|HL003 |TRIGONOMETRIC FUNCTIONS|- SINE- COSINE- TAN |Implement |
+|HL004 |PERMUTATION &amp; COMBITION |factoprials and p&amp;c |Implementing |
 
 
 ##  Low level Requirements:
