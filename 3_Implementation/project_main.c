@@ -1,4 +1,4 @@
-#include <calculator_operations.h>
+#include "calculator_operations.h"
 
 /* Status of the operation requested */
 #define VALID   (1)
@@ -8,11 +8,13 @@
 unsigned int calculator_operation = 0;
 
 /* Operands on which calculation is performed */
-int calculator_operand1 = 0;
-int calculator_operand2 = 0;
+float calculator_operand1 = 0;
+float calculator_operand2 = 0;
+int calculator_operand3 = 0;
+int calculator_operand4 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE,GCD,SINE,COS,TAN,power,log,antilog,LCM,combination,permutation, EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -33,7 +35,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. GCD\n6. SINE\n7. COS\n8. TAN\n9. power\n10. log\n11. antilog\n12. Exit");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. GCD\n6. SINE\n7. COS\n8. TAN\n9. power\n10. log\n11. antilog\n12.LCM\n 13.combination\n 14.permutation\n 15. Exit");
     printf("\n\tEnter your choice\n");
    
     scanf("%d", &calculator_operation);
@@ -93,44 +95,37 @@ void calculator_menu(void)
             printf("\n\t%d / %d = %d\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
-            GCD(calculator_operand1, calculator_operand2));
+            gcd(calculator_operand1, calculator_operand2));
 
             getchar();
             break;
         case SINE:
             printf("\n\t%d / %d = %d\nEnter to continue", 
             calculator_operand1,
-            SIN(calculator_operand1));
+            sin(calculator_operand1));
 
             getchar();
             break;
         case COS:
             printf("\n\t%d / %d = %d\nEnter to continue", 
             calculator_operand1, 
-            COS(calculator_operand1));
+            cos(calculator_operand1));
 
             getchar();
             break;
         case TAN:
             printf("\n\t%d / %d = %d\nEnter to continue", 
             calculator_operand1, 
-            TAN(calculator_operand1));
+            tan(calculator_operand1));
 
             getchar();
             break;
-        case power:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            divide(calculator_operand1, calculator_operand2));
-
-            getchar();
-            break;
+      
         case log:
             printf("\n\t%d / %d = %d\nEnter to continue", 
             calculator_operand1, 
             
-            divide(calculator_operand1, calculator_operand2));
+            LOG(calculator_operand1));
 
             getchar();
             break;    
@@ -138,11 +133,36 @@ void calculator_menu(void)
             printf("\n\t%d / %d = %d\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
-            divide(calculator_operand1, calculator_operand2));
+            ANTILOG(calculator_operand1));
 
             getchar();
-            break;    
-        case 12:
+            break;  
+
+        case LCM:
+            printf("\n\t%d / %d = %d\nEnter to continue", 
+            calculator_operand3, 
+            calculator_operand4,
+            lcm(calculator_operand3, calculator_operand4));
+
+            getchar();
+            break; 
+        case combination:
+            printf("\n\t%d / %d = %d\nEnter to continue", 
+            calculator_operand1, 
+            calculator_operand2,
+            Combination(calculator_operand1, calculator_operand2));
+
+            getchar();
+            break; 
+        case permutation:
+            printf("\n\t%d / %d = %d\nEnter to continue", 
+            calculator_operand1, 
+            calculator_operand2,
+            Permutation(calculator_operand1, calculator_operand2));
+
+            getchar();
+            break;  
+        case 15:
             exit(0);
             break;
         

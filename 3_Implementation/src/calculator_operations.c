@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-#include<calculator_operations.h>
-#include<math.h>
-int add(int operand1, int operand2)
-=======
-#include <calculator_operations.h>
+#include "calculator_operations.h"
 
 float add(float operand1, float operand2)
->>>>>>> 85e0f0b7752ca5156dc9d2117977fa9b9838c92b
 {
     return operand1 + operand2;
 }
@@ -28,8 +22,7 @@ float divide(float operand1, float operand2)
     else
         return operand1 / operand2;
 }
-<<<<<<< HEAD
-int GCD(int operand1, int operand2)
+int gcd(int operand1, int operand2)
 {
    int i, GCD;
 
@@ -50,59 +43,9 @@ float LOG(float operand1)
         return log(operand1);
 }
 
-float ANTILOG(float operand1)
-{
-
-}
-
-float SINE(float operand1)
-{
- float ret, val;
 
 
-   val = 3.141592/ 180;
-   ret = sin(operand1*val);
-  
-   
-   return(ret);
-       
-}
-
-
-float COS(float operand1)
-{
- float ret, val;
-
-
-   val = 3.141592/ 180;
-   ret = cos(operand1*val);
-  
-   
-   return(ret);
-       
-}
-
-
-float TAN(float operand1)
-{
- float ret, val;
-
-
-   val = 3.141592/ 180;
-   ret = tan(operand1*val);
-  
-   
-   return(ret);
-       
-}
-
-float power(float operand1, float operand2)
-{
-    return(pow(float operand1, float operand2));
-}
-=======
-// LCM 
-float LCM(int operand1,int operand2)
+float lcm(int operand1,int operand2)
 {
     int maximum = 0;
     maximum = ((operand1 > operand2) ? operand1 : operand2);
@@ -114,19 +57,22 @@ float LCM(int operand1,int operand2)
         }
     }
 }
-// power
-float power(float operand1,float operand2)
+
+float factorial_calc(float operand1)
 {
-    return pow(operand1,operand2);
+  if (operand1 == 0) // Base case
+    return 1;
+  else
+    return operand1*factorial_calc(operand1-1);
 }
-//combination
-float combination(float operand1,float operand2)
+float Combination(float operand1,float operand2)
 {
-    return factorial_calc(operand1) / factorial_calc(operand1-operand2)*factorial_calc(operand2);
+  float n = factorial_calc(operand1);
+  float m = factorial_calc(operand1-operand2);
+  float ans = n/m;
+    return ans;
 }
-//permutation
-float permutation(float operand1,float operand2)
+float Permutation(float operand1,float operand2)
 {
-    return factorial_calc(operand1) / factorial(operand1-operand2);
+    return factorial_calc(operand1) / factorial_calc(operand1-operand2);
 }
->>>>>>> 85e0f0b7752ca5156dc9d2117977fa9b9838c92b

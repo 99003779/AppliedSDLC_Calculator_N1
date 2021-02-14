@@ -5,9 +5,10 @@
 */
 #ifndef __CALCULATOR_OPERATIONS_H__
 #define __CALCULATOR_OPERATIONS_H__
-
+#include "calculator_operations.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 //#include <stdio_ext.h>
 
 /**
@@ -43,34 +44,62 @@ float multiply(float operand1, float operand2);
 * @note returns 0 for divide by 0 error
 */
 float divide(float operand1, float operand2);
-<<<<<<< HEAD
 
-int GCD(int operand1, int operand2);
+/**
+*  multiply the operand1, operand2 and returns the result
+* @param[in] operand3 
+* @param[in] operand4 
+* @return Result of operand1 * operand2
+*/
+int gcd(int operand1, int operand2);
 
-float SINE(float operand1);
-float COS(float operand1);
-float TAN(float operand1);
-float power(float operand1, float operand2);
+/**
+*  multiply the operand1, operand2 and returns the result
+* @param[in] operand1
 
-float antilog(float operand1, float operand2);
+* @return Result of operand1 * operand2
+*/
+float sin(float operand1);
+/**
+*  multiply the operand1, operand2 and returns the result
+* @param[in] operand1 
 
-float log(float operand1);
+* @return Result of operand1 * operand2
+*/
+float cos(float operand1);
+/**
+*  multiply the operand1, operand2 and returns the result
+* @param[in] operand1
+* @return Result of operand1 * operand2
+*/
+float tan(float operand1);
+/**
+*  multiply the operand1, operand2 and returns the result
+* @param[in] operand1 
 
-=======
->>>>>>> 85e0f0b7752ca5156dc9d2117977fa9b9838c92b
+* @return Result of operand1 * operand2
+*/
+float LOG(float operand1);
+/**
+*  multiply the operand1, operand2 and returns the result
+* @param[in] operand1 
+
+* @return Result of operand1 * operand2
+*/
+float ANTILOG(float operand1);
 
 /**
 * finds the LCM of operand1 and operand2 and returns the result 
 * @param[in] operand1 
-* @param[in] operand2 
+
 * @return integer value of the LCM of operand 1 and operand 2
 
 */
-float LCM(int operand1, int operand2);
+float lcm(int operand1, int operand2);
 /**
 * finds the power of operand1 and operand2 and returns the result 
-* @param[in] operand1 
-* @param[in] operand2 
+* @param[in] operand3 
+* @param[in] operand4 
 * @return float value of the power of operand 1 and operand 2
 
 */
@@ -83,7 +112,7 @@ float power(float operand1, float operand2);
 * @return float value of the Combination of operand 1 and operand 2
 
 */
-float combination(float operand1, float operand2);
+float Combination(float operand1, float operand2);
 
 /**
 * finds the permutation of operand1 and operand2 and returns the result 
@@ -92,5 +121,5 @@ float combination(float operand1, float operand2);
 * @return float value of the Combination of operand 1 and operand 2
 
 */
-float permutation(float operand1, float operand2);
+float Permutation(float operand1, float operand2);
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
