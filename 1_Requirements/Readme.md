@@ -33,24 +33,23 @@
 # 4W&#39;s and 1&#39;H
 
 ## Who:
+* School students, college personnel of Science and Engineering , Professionals at industrial level
 
-**TBD**
 
 ## What:
-
-**TBD**
+* Calculate problems in Science , engineering & mathematics. In some aspects of astronomy, physics and chemistry. 
 
 ## When:
 
-**TBD**
+* In situations that require quick access to certain mathematical functions(trignomety, logrithmic,etc)
 
 ## Where:
 
-**TBD**
+* Widely used in both educational and professinal settings(Institutions, laboratories)
 
 ## How:
 
-**TBD**
+* TBD
 
 # Detail requirements
 ## High Level Requirements:
