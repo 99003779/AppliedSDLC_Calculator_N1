@@ -61,9 +61,10 @@ There are different types of calculators with respect to the cost and its featur
 |**id**  |**Requirments**  | **Description**  |**Status**  |
 | --- | --- | --- | --- |
 |HL001 | CALCULATING NUMBERS | BASIC ARITHMETIC CALCULATION- Addition- Subtraction- Division- multiplication |Implemented |
-|HL002 |LOG aNTILOG &amp; POWER OPERATIONS | SOLVING POLYNOMIALEQUATION UP TO TWO DEGREE.- Zeros- factors|InFuture |
+|HL002 |LOG ANTILOG & POWER OPERATIONS | SOLVING POWER FUNCTIONS AND LOG/ANTILOG OPERATIONS|InFuture |
 |HL003 |TRIGONOMETRIC FUNCTIONS|- SINE- COSINE- TAN |Implement |
-|HL004 |PERMUTATION &amp; COMBITION |factoprials and p&amp;c |Implementing |
+|HL004 |PERMUTATION & COMBITION |  PnC FORMULAE OUTPUTS |Implementing |
+|HL005 |CONVERSIONS OF UNITS |  UNIT COVERSIONS FOR TEMPERATURE,LENGTH UNITS,etc  |Implementing |
 
 
 ##  Low level Requirements:
