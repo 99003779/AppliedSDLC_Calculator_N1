@@ -26,8 +26,8 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
+1. Running the make file as its resolved by defining its correct path
+2. Syncronizing the vs code to github , colleague help to resolve the issue
 3. ...
 4. ...
 
