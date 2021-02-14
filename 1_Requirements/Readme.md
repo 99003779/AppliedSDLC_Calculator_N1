@@ -1,9 +1,12 @@
 # Requirements
 ## Introduction
 
-* We have attempted to build the software development cycle of a semi-engineering calculator. It includes the numerous high-level and low-level requirements of the various features involved in semi-engineering such as log, antilog, exponents roots and polynomial functions. It then explores about the various test cases that should be taken in consideration such that all requirements are taken care of. In the end, we build the codes that follow all the requirements and design efficiently as per them.
+We have attempted to build the software development cycle of a semi-engineering calculator. It includes the numerous high-level and low-level requirements of the various features involved in semi-engineering such as log, antilog, exponents roots and polynomial functions. It then explores about the various test cases that should be taken in consideration such that all requirements are taken care of. In the end, we build the codes that follow all the requirements and design efficiently as per them.
  
 ## Research
+
+There are different types of calculators with respect to the cost and its features. It is plotted in the graph shown below which shows the range of calculators for highest cost and lowest feature and vice versa. The range we have chosen is for a medium range cost and feature. It is similar to a programmable scientific calculator. It will be more efficient for the multipurpose use.
+
 
 -- Content 
 ## Cost and Features
