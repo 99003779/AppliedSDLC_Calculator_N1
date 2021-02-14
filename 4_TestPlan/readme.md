@@ -10,6 +10,9 @@
 |  H_04   |    Putting values in valid format| vales to be performed|display valid output|Error if invalid |Scenario based    |
 |  H_05       |= sign in the expression  |  2x=3y=10  |valid result|valid result|Boundary based    |
 |  H_06 | When n<r for nPr | n=2 r=3 | Error | Error | Scenario |
+|  H_07 | When n<r fornCr | n=2 r=3 | Error | Error | Scenario |
+|  H_08 | ExponentialF(x) =a(b^x) Where b is positive real no. & b not equal to 1 | x=3 a=2 b=2 | 16 | 16 | Requirement |
+
 
 
 ## Table no: Low level test plan
