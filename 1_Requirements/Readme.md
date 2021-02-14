@@ -1,15 +1,16 @@
 # Requirements
 ## Introduction
- --- TBD 
 
+* We have attempted to build the software development cycle of a semi-engineering calculator. It includes the numerous high-level and low-level requirements of the various features involved in semi-engineering such as log, antilog, exponents roots and polynomial functions. It then explores about the various test cases that should be taken in consideration such that all requirements are taken care of. In the end, we build the codes that follow all the requirements and design efficiently as per them.
+ 
 ## Research
-![Description](Link to Pic)
+
 -- Content 
 ## Cost and Features
 ![Description](Link to Pic)
 
 # Cost of the Calculator 
-* our Calculator will sum around 800 Rs , having all neccesary features required for all students 
+* Our Calculator will sum around 800 Rs , having all neccesary features required for all students 
 * Cost and features mainly focus on most of the important requirments we reasearched for a calculator.
 
 # Features that are integrated in our project calculator are : 
