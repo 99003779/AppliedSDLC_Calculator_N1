@@ -49,7 +49,7 @@
 
 ## How:
 
-* TBD
+* Our calculator is a simply a tool that student can efficienlty use it at th=ime of most basic calulcation.
 
 # Detail requirements
 ## High Level Requirements:
