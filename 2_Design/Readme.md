@@ -9,6 +9,8 @@
 *
 ![HLR_Arthimetic](https://user-images.githubusercontent.com/78872643/107881235-7b5ccc00-6f09-11eb-8323-328c0d0825d1.png)
 
+2_Architecture/structure Diagrams/HLR Structural (3723).jpg
+
 
 
 
