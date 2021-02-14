@@ -30,3 +30,4 @@
 | L_07   | Trigonometry Co-function Identities        | sin(90°−x)      | cos x| cos x   |Boundary based 
 | L_08   | Trigonometry Reciprocal Identities         | 1/sec θ      | cos θ | cos θ  |Requirement based
 | L_09   | Logarithmic input check         | If input is negative      | some value | Not a number  |Requirement based
+| L_10 | When n greater than or equal to r for nPr | n=3r=2 | 3 | 3 | Scenario |
