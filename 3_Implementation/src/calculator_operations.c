@@ -58,21 +58,41 @@ float lcm(int operand1,int operand2)
     }
 }
 
-float factorial_calc(float operand1)
-{
-  if (operand1 == 0) // Base case
-    return 1;
-  else
-    return operand1*factorial_calc(operand1-1);
-}
+// float factorial_calc(float operand1)
+// {
+//   if (operand1 == 0) // Base case
+//     return 1;
+//   else
+//     return operand1*factorial_calc(operand1-1);
+// }
 float Combination(float operand1,float operand2)
 {
-  float n = factorial_calc(operand1);
-  float m = factorial_calc(operand1-operand2);
+  float n = factorial(operand1);
+  float m = factorial(operand1-operand2);
   float ans = n/m;
     return ans;
 }
 float Permutation(float operand1,float operand2)
 {
-    return factorial_calc(operand1) / factorial_calc(operand1-operand2);
+    return factorial(operand1) / factorial(operand1-operand2);
+}
+
+float factorial(float operand1)
+{
+    if (operand1 == 0)
+    return 1;
+    else 
+    return (operand1==1 || operand1==0)? 1:operand1*factorial(operand1-1);
+
+}
+
+float exponential(float operand1,float operand2,float result)
+{
+    //if(operand1!=0 && operand2!=0)
+    for(int i=operand1-1;i>0;i--)
+    {
+        result=1+operand2*result/i;
+    }
+    return result;
+    //return(operand2*operand1(operand1,operand1-1));
 }

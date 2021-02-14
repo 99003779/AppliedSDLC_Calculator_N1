@@ -122,4 +122,27 @@ float Combination(float operand1, float operand2);
 
 */
 float Permutation(float operand1, float operand2);
-#endif  /* #define __CALCULATOR_OPERATIONS_H__ */
+//#endif  /* #define __CALCULATOR_OPERATIONS_H__ */
+
+float factorial(float operand1);
+
+/**
+ * find the factorial of operand 1 and returns the result
+ * @param[in] operand1
+ * @return  factorial of number
+ * */
+
+
+float exponential(float operand1, float operand2);
+
+/**
+ * find the polynomial expression of operand 1 and operand 2 and return the result
+ * @param[in] operand1
+ * @param[in] operand2
+ * @return  Exponentail base and power operand
+ * 
+ */
+
+
+
+#endif
