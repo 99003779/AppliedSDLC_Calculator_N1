@@ -10,10 +10,18 @@
 |  H_04   |    Putting values in valid format| vales to be performed|display valid output|Error if invalid |Scenario based    |
 |  H_05       |= sign in the expression  |  2x=3y=10  |valid result|valid result|Boundary based    |
 
+
 ## Table no: Low level test plan
+
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       |--------------------------------------------------------------|  ------------|-------------|----------------|Requirement based |
-|  L_02       |--------------------------------------------------------------|  ------------|-------------|----------------|Scenario based    |
-|  L_03       |--------------------------------------------------------------|  ------------|-------------|----------------|Boundary based    |
+|  L_01       |Verify that BODMAS is applied in case of complex queries and the correct result is returned.| 24+3*2 |30 | 30|Requirement based |
+|  L_02       |Addition of 2 or more numbers  |  20+30 |50|50|Scenario based    |
+|  L_03       |Sequential incorrect parameter  |   2+4*3.y|20|Error|Boundary based    |
+|  L_04       |Out of range check   |   addition if exceed 15 digit numbers|any output|Result out of range|Requirement based    |
+|  L_05       |Sequential incorrect parameter  |   2+4*3.y|20|Error|Boundary based    |
+| L_06   | Two symbol cannot be between numbers        | 3++5      | 2  | Invalid Format|Scenario based |
+| L_07   | Trigonometry Co-function Identities        | sin(90°−x)      | cos x| cos x   |Boundary based 
+| L_08   | Trigonometry Reciprocal Identities         | 1/sec θ      | cos θ | cos θ  |Requirement based
+| L_09   | Logarithmic input check         | If input is negative      | some value | Not a number  |Requirement based
