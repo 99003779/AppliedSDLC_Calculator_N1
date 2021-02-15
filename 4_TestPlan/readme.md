@@ -87,5 +87,17 @@ LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out 
 | LLR\_P\_6 | other then numeric values in trigonometric ratios  | /,=,*,&,*;,', | errror | error |math.h file & Boundary based 
 
 
+## Table No 7.: Low level test plan
+| Test ID | Description | expected Input | Expected output | Actual output| Type of test case
+|--|--|--|--|--|--|
+| LLR\_P\_1 |find log of no. using the function|10| 1 | 1 | Scenario |
+| LLR\_P\_2 |finding log of grater  then 12 digit numbers | 1806515102031| Error: large result| Error: large Result |Boundary based
+| LLR\_P\_3 |finding log of grater  other then numbers | gh,gf| Error | Error |requirement based
 
+## Table No 8.: Low level test plan
+| Test ID | Description | expected Input | Expected output | Actual output| Type of test case
+|--|--|--|--|--|--|
+| LLR\_P\_1 |find antilog of no. using the function|100 | 2 | 2 | Scenario |
+| LLR\_P\_2 |finding antilog of grater  then 12 digit numbers | 1806515102031 | Error: large result| Error: large Result |Boundary based
+| LLR\_P\_3 |finding antilog of grater  other then numbers | gh,gf| Error | Error |requirement based
 
