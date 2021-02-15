@@ -1,4 +1,5 @@
 # Requirements
+The calculator build by us includes basic arithmetic functions, trignometric functions and exponential functions. It also consists of some other functions including power, log, antilog, permutation and combination functions.
 ## Introduction
 
 We have attempted to build the software development cycle of a semi-engineering calculator. It includes the numerous high-level and low-level requirements of the various features involved in semi-engineering such as log, antilog, exponents roots and polynomial functions. It then explores about the various test cases that should be taken in consideration such that all requirements are taken care of. In the end, we build the codes that follow all the requirements and design efficiently as per them.
@@ -6,7 +7,7 @@ We have attempted to build the software development cycle of a semi-engineering 
 ## Research
 
 There are different types of calculators with respect to the cost and its features. It is plotted in the graph shown below which shows the range of calculators for highest cost and lowest feature and vice versa. The range we have chosen is for a medium range cost and feature. It is similar to a programmable scientific calculator. It will be more efficient for the multipurpose use.
-
+![It consists of the cost vs features graph which depicts what calculator supports how many features in comparison with the cost provided](https://user-images.githubusercontent.com/78869160/107908451-15f5f300-6f7c-11eb-812a-11f2a8746f17.png)
 
 
 
@@ -63,10 +64,11 @@ In some aspects of astronomy, physics and chemistry.
 |**id**  |**Requirments**  | **Description**  |**Status**  |
 | --- | --- | --- | --- |
 |HL001 | CALCULATING NUMBERS | BASIC ARITHMETIC CALCULATION- Addition- Subtraction- Division- multiplication |Implemented |
-|HL002 |LOG ANTILOG & POWER OPERATIONS | SOLVING POWER FUNCTIONS AND LOG/ANTILOG OPERATIONS|InFuture |
-|HL003 |TRIGONOMETRIC FUNCTIONS|- SINE- COSINE- TAN |Implement |
-|HL004 |PERMUTATION & COMBITION |  PnC FORMULAE OUTPUTS |Implementing |
-|HL005 |CONVERSIONS OF UNITS |  UNIT COVERSIONS FOR TEMPERATURE,LENGTH UNITS,etc  |Implementing |
+|HL002 |LOG ANTILOG & POWER OPERATIONS | SOLVING POWER FUNCTIONS AND LOG/ANTILOG OPERATIONS|IMPLEMENTED |
+|HL003 |TRIGONOMETRIC FUNCTIONS|- SINE- COSINE- TAN |IMPLEMENTED |
+|HL004 |PERMUTATION & COMBINATION |  PnC FORMULAE OUTPUTS |IMPLEMENTED|
+|HL005 |CONVERSIONS OF UNITS |  UNIT COVERSIONS FOR TEMPERATURE,LENGTH UNITS,etc  |IMPLEMENTED|
+|HL005 |FACTORIAL |  FACTORIAL OF THE POSITIVE NUMBERS  |IMPLEMENTED |
 
 
 ##  Low level Requirements:
