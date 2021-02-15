@@ -59,7 +59,7 @@ LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out 
 | Test ID | Description | expected Input | Expected output | Actual output| Type of test
 |--|--|--|--|--|--|
 | LLR\_P\_1 |finding LCM of two positive numbers|5,15 |75|75|logic based
-| LLR\_P\_2 |finding LCM of any one negative number| 72,120 | 360 |360|logic based
+| LLR\_P\_2 |finding LCM of any one negative number| -72,120 | 360 |360|logic based
 | LLR\_P\_3 | finding LCM of one number as zero | 0,10| Error | Error |logic based
 | LLR\_P\_4 |finding LCM of two large numbers|100000,100000|Out of range| Out of range| Boundary based
 
