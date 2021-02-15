@@ -13,9 +13,13 @@ void test_multiply(void);
 void test_divide(void);
 void test_factorial(void);
 void test_lcm(void);
-void test_Combination(void);
-void test_Permutation(void);
-
+void test_sine(void);
+void test_Cos(void);
+void test_Tan(void);
+void test_Log(void);
+void test_antilog(void);
+void test_power(void);
+void test_GCD(void);
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -37,6 +41,13 @@ int main()
 RUN_TEST(test_lcm);
 RUN_TEST(test_Permutation);
 RUN_TEST(test_Combination);
+RUN_TEST (test_sine);
+RUN_TEST (test_Cos);
+RUN_TEST (test_Tan);
+RUN_TEST (test_Log);
+RUN_TEST (test_antilog);
+RUN_TEST (test_power);
+RUN_TEST (test_GCD);
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
