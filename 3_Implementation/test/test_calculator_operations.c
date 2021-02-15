@@ -74,4 +74,9 @@ void test_factorial(void) {
   TEST_ASSERT_EQUAL(4,factorail(555));
 }
 
+  void test_exponential(void) {
+  TEST_ASSERT_EQUAL(0,exponential(2,3));
   
+  /* Dummy fail */
+  TEST_ASSERT_EQUAL(5,exponential(2,-3));
+}
