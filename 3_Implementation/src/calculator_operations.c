@@ -80,7 +80,7 @@ float factorial(float operand1)
 
 }
 
-float exponential(float operand1,float operand2,float result)
+float Exponential(float operand1,float operand2,float result)
 {
     //if(operand1!=0 && operand2!=0)
     for(int i=operand1-1;i>0;i--)
@@ -91,56 +91,7 @@ float exponential(float operand1,float operand2,float result)
     //return(operand2*operand1(operand1,operand1-1));
 }
 
-float cubeRoot(float operand1)
+float cubeRoot(float operand1,float operand2,float operand3)
 {
-    float user_input,precission=0.01;
-    //     for integer part
-    for(user_input=1;(user_input*user_input*user_input)<=n;user_input++);
-    // for fractional part
-    for(--user_input;(user_input*user_input*user_input)<n;user_input=user_input+precision);
-    return user_input;
+    return operand1 * operand2 * operand3;
 }
-
-float LengthConv(float operand1)
-{
-    float cm, meter, km;
-
-    /* Input length in centimeter from user */
-    printf("Enter length in centimeter: ");
-    scanf("%f", &cm);
-
-    /* Convert centimeter into meter and kilometer */
-    meter = cm / 100.0;
-    km    = cm / 100000.0;
-
-    printf("Length in Meter = %.2f m \n", meter);
-    printf("Length in Kilometer = %.2f km", km);
-}
-
-float TempConv(float operand1)
-{
-    float cm, meter, km;
-
-    /* Input length in centimeter from user */
-    printf("Enter length in centimeter: ");
-    scanf("%f", &cm);
-
-    /* Convert centimeter into meter and kilometer */
-    meter = cm / 100.0;
-    km    = cm / 100000.0;
-
-    printf("Length in Meter = %.2f m \n", meter);
-    printf("Length in Kilometer = %.2f km", km);
-}
-
-float c,f;
-
-    printf("Enter the temperature in Celcius: ");
-
-    scanf("%f",&c);
-
-    f = c * 9/5 + 32;
-
-    printf("Temperature in Farenheit: %f",f);
-}
-
