@@ -61,9 +61,9 @@ float lcm(int operand1,int operand2)
 
 float Combination(float operand1,float operand2)
 {
-  float n = factorial(operand1);
-  float m = factorial(operand1-operand2);
-  float ans = n/m;
+  float op_2 = factorial(operand1);
+  float op_1 = factorial(operand1-operand2);
+  float ans =op_2/op_1;
     return ans;
 }
 float Permutation(float operand1,float operand2)
