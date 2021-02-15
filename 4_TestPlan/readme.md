@@ -33,7 +33,10 @@
 |  H_03       |bracket should be open and close if used|  (2x-3=0|(2x-3=0) |Invalid output|Scenario based |
 |  H_04   |    Putting values in valid format| vales to be performed|display valid output|Error if invalid |Scenario based    |
 |  H_05       |= sign in the expression  |  2x=3y=10  |valid result|valid result|Boundary based    |
-
+|  H_06 | When n<r for nPr | n=2 r=3 | Error | Error | Scenario |
+|  H_07 | When n<r for nCr | n=2 r=3 | Error | Error | Scenario |
+|  H_08 | ExponentialF(x) =a(b^x) Where b is positive real no. & b not equal to 1 | x=3 a=2 b=2 | 16 | 16 | Requirement |
+|  H_09 | Power fxn F(x)= x^r Where r is greater than equals to 0 | x=2 r=3 | 8 | 8 | requirement |
 
 ## Table No 2.: Low level test plan
 |Test ID | Description  |Expected Input| Expected Output| Actual output| Type of test
@@ -71,3 +74,18 @@ LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out 
 | LLR\_P\_4 |find combination using the formula|6,4|15|15|logic based
 | LLR\_P\_5 |finding combination of large numbers| 180,179 | Error: large result| Error: large Result |Boundary based
 | LLR\_P\_6 | Combination of numbers when n<r | 4,6| Error | Error |requirement based
+
+## Table No 6.: Low level test plan
+| Test ID | Description | expected Input | Expected output | Actual output| Type of test case
+|--|--|--|--|--|--|
+| LLR\_P\_1 | Trigonometric Sine  value  of 0    | 0   | 0 | 0  |math.h file & Boundary based 
+| LLR\_P\_2 |Trigonometric Cosine  value  of 0    | 0   | 1 | 1  |math.h file & Boundary based 
+| LLR\_P\_3 | Trigonometrc Tan  value  of 0    | 0   | 0 | 0  |math.h file & Boundary based 
+| LLR\_P\_4 |Trigonometric Sine  value  of 90   | 90   | 1 | 1  |math.h file & Boundary based 
+| LLR\_P\_5 |Trigonometric Cosine  value  of 90   | 90   | 0 | 0  |math.h file & Boundary based 
+| LLR\_P\_6 | Trigonometric Tan  value  of 90   |  90 | not defined | not defineed  |math.h file & Boundary based 
+| LLR\_P\_6 | other then numeric values in trigonometric ratios  | /,=,*,&,*;,', | errror | error |math.h file & Boundary based 
+
+
+
+
