@@ -74,5 +74,24 @@ In some aspects of astronomy, physics and chemistry.
 
 
 ##  Low level Requirements:
+Arithmetic Operation:
 ![Low Level Requirements](https://user-images.githubusercontent.com/78871033/107877502-e6e76f00-6ef2-11eb-9db1-a903f1b9325b.png)
+Precision:
+|ID| Requirements  |Description| Status|
+|--|--|--|--|
+|BOD_1 | Bracket Type |For more than 1 operation, brackets((),[],{}) should be identified and executed first.|Implemented
+|BOD_2|Bracket order 1|The bracket order (), {}, [] is to be followed.|Implemented
+|BOD_3|Bracket order 2|For more than 1 operation, powers and roots should be identified and executed after brackets.|Implemented
+|BOD_4|Bracket order 3| For more than 1 operation, Division should be identified and executed after exponents and roots.|Implemented
+|BOD_5|Bracket order 4|  For more than 1 operation, Multiplication should be identified and executed after Division.|Implemented
+|BOD_6|Bracket order 5|  For more than 1 operation, Multiplication should be identified and executed after Division.|Implemented
+|BOD_7|Bracket order 6| For more than 1 operation, Addition should be identified and executed after Multiplication.|Implemented
+|BOD_8|Bracket order 7| For more than 1 operation, subtraction should be identified and executed after Addition.|Implemented
+|BOD_9|Bracket order 8| For more than 1 operation, the calculation should start from left to right.| Implemented
 
+|ID| Requirements  |Description| Status|
+|--|--|--|--|
+|BOD_1 | Stored value |-   Capable of storing values for 50 days|Implemented
+|BOD_2|MC function|-   Pressing ‘MC’ and 0 clears the memory|Implemented
+|BOD_3|Memory storage|-   Stores up to 5 memories.|Implemented
+|BOD_4|Memory style| -   Show all memories in a first in last out style after every click|Implemented
