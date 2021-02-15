@@ -179,9 +179,9 @@ void calculator_menu(void)
             break;
         case cuberoot:
              printf("\n\t%d / %d = %d\nEnter to continue",
-             calculator_operand1,
-             cubeRoot(calculator_operand1));
-            
+              calculator_operand1,calculator_operand2,calculator_operand3,
+             cuberoot(calculator_operand1,calculator_operand2,calculator_operand3));
+                        
              getchar();
             break;
         case LengthConv:
@@ -194,18 +194,18 @@ void calculator_menu(void)
         case TempConv:
              printf("\n\t%d / %d = %d\nEnter to continue",
              calculator_operand1,
-             TempConv(calculator_operand1));
+             tempConv(calculator_operand1));
             
              getchar();
             break;
         case DegreetoRad:
              printf("\n\t%d / %d = %d\nEnter to continue",
              calculator_operand1,
-             DegreetoRad(calculator_operand1));
+             degreetoRad(calculator_operand1));
             
              getchar();
             break;
-        case 20:
+        case 21:
             exit(0);
             break;
         
