@@ -30,6 +30,8 @@ There are different types of calculators with respect to the cost and its featur
 
 ## Defining Our System
 
+Our system is more or less semi advanced which basically able to do desirable calculations of daily basis from bottom to top level i.e. it includes every basic operations which eats lots of time in scheduled timings.  
+
 ## SWOT ANALYSIS
 ![SWOT Analysis](https://user-images.githubusercontent.com/78869361/107869760-91da3780-6eb7-11eb-83fb-4aace3c89394.jpg)
 
