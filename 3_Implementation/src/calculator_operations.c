@@ -96,3 +96,13 @@ float exponential(float operand1,float operand2,float result)
     return result;
     //return(operand2*operand1(operand1,operand1-1));
 }
+
+float cubeRoot(float operand1)
+{
+    float user_input,precission=0.01;
+    //     for integer part
+    for(user_input=1;(user_input*user_input*user_input)<=n;user_input++);
+    // for fractional part
+    for(--user_input;(user_input*user_input*user_input)<n;user_input=user_input+precision);
+    return user_input;
+}
