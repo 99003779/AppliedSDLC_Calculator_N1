@@ -33,10 +33,7 @@
 |  H_03       |bracket should be open and close if used|  (2x-3=0|(2x-3=0) |Invalid output|Scenario based |
 |  H_04   |    Putting values in valid format| vales to be performed|display valid output|Error if invalid |Scenario based    |
 |  H_05       |= sign in the expression  |  2x=3y=10  |valid result|valid result|Boundary based    |
-|  H_06 | When n<r for nPr | n=2 r=3 | Error | Error | Scenario |
-|  H_07 | When n<r for nCr | n=2 r=3 | Error | Error | Scenario |
-|  H_08 | ExponentialF(x) =a(b^x) Where b is positive real no. & b not equal to 1 | x=3 a=2 b=2 | 16 | 16 | Requirement |
-|  H_09 | Power fxn F(x)= x^r Where r is greater than equals to 0 | x=2 r=3 | 8 | 8 | requirement |
+
 
 ## Table No 2.: Low level test plan
 |Test ID | Description  |Expected Input| Expected Output| Actual output| Type of test
