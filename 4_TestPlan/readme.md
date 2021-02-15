@@ -89,6 +89,13 @@ LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out 
 | LLR\_P\_6 | Trigonometric Tan  value  of 90   |  90 | not defined | not defineed  |math.h file & Boundary based 
 | LLR\_P\_6 | other then numeric values in trigonometric ratios  | /,=,*,&,*;,', | errror | error |math.h file & Boundary based 
 
+Store and recall:
 
+| Test ID | Description | expected Input | Expected output | Actual output| Type of test
+|--|--|--|--|--|--|
+| LLR\_P\_1 |M button after 50 days | M button after 50 days  |No memory found| No memory found| requirement based
+| LLR\_P\_2 |MC button clicked to select the value to clear and 0 pressed on 3rd value to clear it| MC button clicked and 0 pressed on 3rd value |Displays values and then clears the 3rd value| Displays values and then clears the 3rd value| logic based
+| LLR\_P\_3 | M clicked after 5 stored values already |entering the 6th value to store in the memory| Memory full | Memory full |requirement based
+| LLR\_P\_4 |MR button is pressed| Displays values iteratively| Displays values iteratively| Out of range| Boundary based
 
 
