@@ -36,3 +36,12 @@
 | L_13 | Base e not defined by user(by default, 10 for log and e for ln) | a=10 e=10 for log a | 1 | 1 | Requirement |
 | L_14 | ln x + ln y= ln(xy) where x>0 ; y>0 | x=3y=2 | 1.7916 | 1.7916 | Scenario |
 | L_15 | If b other than real positive no. For exp function | x=3 a=2 b=-2 | Error | Error | Boundary |
+
+|Test ID | Description  |Expected Input| Expected Output| Actual output| Type of test
+|--|--|--|--|--|--|
+| LLR_P_1  |First, the operators within brackets are executed in order of multiplication and subtraction order and then add operator outside bracket.  |14 + (8 – 2 × 3)|16|16|Logical test
+|LLR_P_2|The terms inside {} are simplified followed by () and then operated with terms outside the bracket.|1800÷10{(12−6)+(24−12)}|3240|3240|logical
+| LLR_P_3|The terms inside () are simplified followed by {}, then [] and then terms are operated with the terms outside the bracket.|1/2[{−2(1+2)}10]|-30|-30|Logical
+| LLR_P_4|The terms inside () are simplified first followed by exponent and then terms are operated with the terms outside the bracket.|(2^9*2) + 9 / (e^3)|1204.76983|1204.76983|Logical
+LLR_P_5|An equation of the result of more than 8 digits is given by the user.|(10*5+100)*100|Error: Out of range| Error: Out of range| Boundary Based
+LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out of range| Requirement based
