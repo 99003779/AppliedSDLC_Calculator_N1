@@ -24,8 +24,6 @@
 * behavioural Diagram
 
 ![Communication_LLR_diagram](https://user-images.githubusercontent.com/78869160/107902969-f952be80-6f6d-11eb-9e0e-7a8484ef6502.png)
-
-
 ![LLR_for PnC](https://user-images.githubusercontent.com/78872643/107881609-0b4f4580-6f0b-11eb-8932-6801cbc59e5b.jpg)
 ![activity_dia_of_ precision](https://user-images.githubusercontent.com/78872643/107881635-36399980-6f0b-11eb-853f-3868de7f7e23.png)
 ![behavioural_BODMAS (1)](https://user-images.githubusercontent.com/78872643/107881667-5d906680-6f0b-11eb-9ac5-777fbc8a151f.jpeg)
