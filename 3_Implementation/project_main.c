@@ -14,7 +14,7 @@ int calculator_operand3 = 0;
 int calculator_operand4 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE,GCD,SINE,COS,TAN,power,log,antilog,LCM,combination,permutation,factorial,Exponential, EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, GCD, SINE, COS, TAN, power, log, antilog, LCM, combination, permutation, factorial, Exponential, Lengthconversion, TempConv, DegreetoRad,  EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. GCD\n6. SINE\n7. COS\n8. TAN\n9. power\n10. log\n11. antilog\n12.LCM\n 13.combination\n 14.permutation\n 15.factorial\n 16.Exponential\n 17. Exit");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. GCD\n6. SINE\n7. COS\n8. TAN\n9. power\n10. log\n11. antilog\n12.LCM\n 13.combination\n 14.permutation\n 15.factorial\n 16.Exponential\n 17.Lengthconversion\n 18.TempConv\n 19. DegreetoRad\n 20. Exit");
     printf("\n\tEnter your choice\n");
    
     scanf("%d", &calculator_operation);
@@ -184,7 +184,28 @@ void calculator_menu(void)
             
              getchar();
             break;
-        case 17:
+        case LengthConv:
+             printf("\n\t%d / %d = %d\nEnter to continue",
+             calculator_operand1,
+            lengthConv(calculator_operand1));
+            
+             getchar();
+            break;
+        case TempConv:
+             printf("\n\t%d / %d = %d\nEnter to continue",
+             calculator_operand1,
+             TempConv(calculator_operand1));
+            
+             getchar();
+            break;
+        case DegreetoRad:
+             printf("\n\t%d / %d = %d\nEnter to continue",
+             calculator_operand1,
+             DegreetoRad(calculator_operand1));
+            
+             getchar();
+            break;
+        case 20:
             exit(0);
             break;
         
