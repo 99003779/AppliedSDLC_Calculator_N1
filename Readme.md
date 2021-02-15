@@ -20,7 +20,7 @@ Folder             | Description
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 99003720 | Jasleen   | Feature Store,Recall, P&C, LCM,Power    | 1 No     | 1 No   |3 No   |3 No     
-99003721 | Himanshu Kmar  | Feature Exponentail,Factorial,pie    | 2 No     | 2 No   |5 No   |4 No   
+99003721 | Himanshu Kumar  | Feature Exponentail,Factorial,pie    | 2 No     | 2 No   |5 No   |4 No   
 99003723 | Vipul Sukania  | Feature Conversion,Power,GCD    | 2 No     | 1 No   |5 No   |5 No   
 99003726 | Abhishek Guria  | Feature Trigonometry,root,log,antilog    | 2 No     | 2 No   |5 No   |4 No   
 
@@ -28,7 +28,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 1. Running the make file as its resolved by defining its correct path
 2. Syncronizing the vs code to github , colleague help to resolve the issue
-3. ...
+3. Making the function call in correct path  
 4. ...
 
 ## Learning Resources
