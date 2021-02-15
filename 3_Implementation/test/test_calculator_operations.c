@@ -80,3 +80,9 @@ void test_factorial(void) {
   /* Dummy fail */
   TEST_ASSERT_EQUAL(5,exponential(2,-3));
 }
+  void test_cubeRoot(void) {
+    TEST_ASSERT_EQUAL(0,cubeRoot(2,2,2));
+    
+    /* Dummy fail */
+    TEST_ASSERT_EQUAL(6,cuberoot(2,2,3));
+  }
