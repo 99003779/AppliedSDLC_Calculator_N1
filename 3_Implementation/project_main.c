@@ -14,7 +14,7 @@ int calculator_operand3 = 0;
 int calculator_operand4 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE,GCD,SINE,COS,TAN,power,log,antilog,LCM,combination,permutation,factorial,Exponential, EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, GCD, SINE, COS, TAN, power, log, antilog, LCM, combination, permutation, factorial, Exponential, Lengthconversion, TempConv, DegreetoRad,  EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -178,6 +178,27 @@ void calculator_menu(void)
             getchar();
             break;
         case cubeRoot:
+             printf("\n\t%d / %d = %d\nEnter to continue",
+             calculator_operand1,
+             cuberoot(calculator_operand1));
+            
+             getchar();
+            break;
+        case LengthConv:
+             printf("\n\t%d / %d = %d\nEnter to continue",
+             calculator_operand1,
+             cuberoot(calculator_operand1));
+            
+             getchar();
+            break;
+        case TempConv:
+             printf("\n\t%d / %d = %d\nEnter to continue",
+             calculator_operand1,
+             cuberoot(calculator_operand1));
+            
+             getchar();
+            break;
+        case DegreetoRad:
              printf("\n\t%d / %d = %d\nEnter to continue",
              calculator_operand1,
              cuberoot(calculator_operand1));
