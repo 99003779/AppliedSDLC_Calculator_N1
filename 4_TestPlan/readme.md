@@ -63,3 +63,11 @@ LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out 
 | LLR\_P\_3 | finding LCM of one number as zero | 0,10| Error | Error |logic based
 | LLR\_P\_4 |finding LCM of two large numbers|100000,100000|Out of range| Out of range| Boundary based
 
+| Test ID | Description | expected Input | Expected output | Actual output| Type of test case
+|--|--|--|--|--|--|
+| LLR\_P\_1 |find permutation using the formula|3,2 |6|6|logic based
+| LLR\_P\_2 |finding permutations of large numbers| 180,179 | Error: large result| Error: large Result |Boundary based
+| LLR\_P\_3 | Permutation of numbers when n<r | 10,11| Error | Error |requirement based
+| LLR\_P\_4 |find combination using the formula|6,4|15|15|logic based
+| LLR\_P\_5 |finding combination of large numbers| 180,179 | Error: large result| Error: large Result |Boundary based
+| LLR\_P\_6 | Combination of numbers when n<r | 4,6| Error | Error |requirement based
