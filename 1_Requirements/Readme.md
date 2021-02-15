@@ -26,7 +26,7 @@ There are different types of calculators with respect to the cost and its featur
 * Integrated with operation like logrithimic and Antilog calculation
 * Factorial of numbers and Exponential 
 * Mean of the numbers
-* Conversion of numbers
+* Conversion of Units
 
 
 ## Defining Our System
@@ -121,3 +121,10 @@ power:
 |pre_2|power function| Requirement of power function while executing this section of program..| Implemented
 |pre_3|Data type |Must contain best suited data types else show| Implemented
 |pre_3|Boundary limit| Limit exceeds.| Implemented
+
+Conversion Of Units:
+|ID| Requirements  |Description| Status|
+|--|--|--|--|
+|COU_1 | Length conversion |- cm to m &km|Implemented
+|COU_2|Temperature conversion |- Celcius to fahrenheit|Implemented
+|COU_3|Degree to radian conversion |- Deg to rad|Implemented
