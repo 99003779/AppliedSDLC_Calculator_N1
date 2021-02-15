@@ -14,7 +14,7 @@ int calculator_operand3 = 0;
 int calculator_operand4 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, GCD, SINE, COS, TAN, power, log, antilog, LCM, combination, permutation, factorial, Exponential, LengthConv, TempConv, DegreetoRad,  EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, GCD, SINE, COS, TAN, power, log, antilog, LCM, combination, permutation, factorial, Exponential, cubeRoot, LengthConv, TempConv, DegreetoRad,  EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
