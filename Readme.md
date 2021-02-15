@@ -20,8 +20,8 @@ Folder             | Description
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 99003720 | Jasleen   | Feature Store,Recall, P&C, LCM,Power    | 3 No     | 2 No   |11 No   |8 No     
-99003721 | Himanshu Kumar  | Feature Exponentail,Factorial,pie    | 2 No     | 2 No   |5 No   |4 No   
-99003723 | Vipul Sukania  | Feature Conversion,Power,Pnc test plan&uml,    | 2 No     | 1 No   |8 No   |6 No   
+99003721 | Himanshu Kumar  | Feature Exponentail,Factorial,cuberoot,pie    | 2 No     | 2 No   |5 No   |4 No   
+99003723 | Vipul Sakunia  | Feature Conversion,Power,Pnc test plan&uml,    | 2 No     | 1 No   |8 No   |6 No   
 99003726 | Abhishek Guria  | Feature Trigonometry,root,log,antilog    | 2 No     | 2 No   |5 No   |4 No   
 
 ## Challenges Faced and How Was It Overcome
