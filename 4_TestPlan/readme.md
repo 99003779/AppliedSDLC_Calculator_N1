@@ -101,3 +101,14 @@ LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out 
 | LLR\_P\_2 |finding antilog of grater  then 12 digit numbers | 1806515102031 | Error: large result| Error: large Result |Boundary based
 | LLR\_P\_3 |finding antilog of grater  other then numbers | gh,gf| Error | Error |requirement based
 
+
+## Table No 8.: Low level test plan
+| Test ID | Description | expected Input | Expected output | Actual output| Type of test case
+|--|--|--|--|--|--|
+| LLR\_P\_1 |find square of number | 2,2 | 4 | Scenario |
+| LLR\_P\_2 |find square root of number | 100,0.5 | 10 |10| Scenario |
+| LLR\_P\_3 |find cube of number | 3,3 | 27 |27 | Scenario |
+| LLR\_P\_3 |find power of number | 100000,2 | 10x10^11 | 10x10^11 |Scenario |
+| LLR\_P\_3 |find power of other then number | 100000,h | errror | error |Scenario |
+| LLR\_P\_3 |find power of other then number | f,65458 | errror | error |Scenario |
+
