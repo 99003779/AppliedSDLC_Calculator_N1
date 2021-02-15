@@ -150,6 +150,29 @@ float cuberoot(float operand1);
  * @param[in] operand1
  * @return  cuberoot of number
  * */
+float LengthConv(float operand1);
+
+/**
+ * Convert the unit of operand 1 and returns the result
+ * @param[in] operand1
+ * @return  converted value
+ * */
+
+float TempConv(float operand1);
+
+/**
+ * conversion in Temperature unit of operand 1 and returns the result
+ * @param[in] operand1
+ * @return  converted temperture
+ * */
+
+float DegreetoRad(float operand1);
+
+/**
+ * convert  degree to radian of operand 1 and returns the result
+ * @param[in] operand1
+ * @return radian
+ * */
 
 
 
