@@ -58,13 +58,7 @@ float lcm(int operand1,int operand2)
     }
 }
 
-// float factorial_calc(float operand1)
-// {
-//   if (operand1 == 0) // Base case
-//     return 1;
-//   else
-//     return operand1*factorial_calc(operand1-1);
-// }
+
 float Combination(float operand1,float operand2)
 {
   float n = factorial(operand1);

@@ -12,6 +12,9 @@ void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
 void test_factorial(void);
+void test_lcm(void);
+void test_Combination(void);
+void test_Permutation(void);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -31,7 +34,9 @@ int main()
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
   RUN_TEST(test_factorial);
-
+RUN_TEST(test_lcm);
+RUN_TEST(test_Permutation);
+RUN_TEST(test_Combination);
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
@@ -73,6 +78,21 @@ void test_factorial(void) {
   /* Dummy fail*/
   TEST_ASSERT_EQUAL(4,factorail(555));
 }
+
+void test_lcm(void) {
+  TEST_ASSERT_EQUAL(75,lcm(5,15));
+  TEST_ASSERT_EQUAL(360,lcm(-72,120));
+}
+  void test_Permutation(void) {
+  TEST_ASSERT_EQUAL(6,Permutation(3,2));
+  TEST_ASSERT_EQUAL("Error:Out of range",Permutation(180,179));
+  
+  }
+
+  void test_Combination(void) {
+  TEST_ASSERT_EQUAL(15,Combination(6,4));
+  TEST_ASSERT_EQUAL("Error: out of range",Combination(180,179));
+  }
 
   void test_exponential(void) {
   TEST_ASSERT_EQUAL(0,exponential(2,3));
