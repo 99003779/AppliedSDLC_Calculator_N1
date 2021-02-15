@@ -10,9 +10,9 @@
 |  H_04   |    Putting values in valid format| vales to be performed|display valid output|Error if invalid |Scenario based    |
 |  H_05       |= sign in the expression  |  2x=3y=10  |valid result|valid result|Boundary based    |
 |  H_06 | When n<r for nPr | n=2 r=3 | Error | Error | Scenario |
-|  H_07 | When n<r fornCr | n=2 r=3 | Error | Error | Scenario |
+|  H_07 | When n<r for nCr | n=2 r=3 | Error | Error | Scenario |
 |  H_08 | ExponentialF(x) =a(b^x) Where b is positive real no. & b not equal to 1 | x=3 a=2 b=2 | 16 | 16 | Requirement |
-|  H_09 | Power fxnF(x)= x^r Where r is greater than equals to 0 | x=2 r=3 | 8 | 8 | requirement |
+|  H_09 | Power fxn F(x)= x^r Where r is greater than equals to 0 | x=2 r=3 | 8 | 8 | requirement |
 
 
 
@@ -27,9 +27,9 @@
 |  L_04       |Out of range check   |   addition if exceed 15 digit numbers|any output|Result out of range|Requirement based    |
 |  L_05       |Sequential incorrect parameter  |   2+4*3.y|20|Error|Boundary based    |
 | L_06   | Two symbol cannot be between numbers        | 3++5      | 2  | Invalid Format|Scenario based |
-| L_07   | Trigonometry Co-function Identities        | sin(90°−x)      | cos x| cos x   |Boundary based 
-| L_08   | Trigonometry Reciprocal Identities         | 1/sec θ      | cos θ | cos θ  |Requirement based
-| L_09   | Logarithmic input check         | If input is negative      | some value | Not a number  |Requirement based
+| L_07   | Trigonometry Sine  value       | sin(x)      | sin x| sin x   |Boundary based 
+| L_08   | Trigonometry Cos  value          | cos(x)      | cos x | cos x  |Requirement based
+| L_09   | Trigonometry Tan  value      | Tan(x)    | Tan x | tan x |Requirement based
 | L_10 | When n greater than or equal to r for nPr | n=3 r=2 | 3 | 3 | Scenario |
 | L_11 | When n greater than or equal to r for nCr | n=4 r=2 | 12 | 12 | Scenario |
 | L_12 | Base e defined by user for log(a) | e=10 a=10 | 1 | 1 | Scenario |
