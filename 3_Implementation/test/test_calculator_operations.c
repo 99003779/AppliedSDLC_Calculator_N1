@@ -86,12 +86,13 @@ void test_lcm(void) {
   void test_Permutation(void) {
   TEST_ASSERT_EQUAL(6,Permutation(3,2));
   TEST_ASSERT_EQUAL("Error:Out of range",Permutation(180,179));
-  
+  TEST_ASSERT_EQUAL("Error:n should be more than r",Permutation(4,6));
   }
 
   void test_Combination(void) {
   TEST_ASSERT_EQUAL(15,Combination(6,4));
   TEST_ASSERT_EQUAL("Error: out of range",Combination(180,179));
+  TEST_ASSERT_EQUAL("Error:n should be more than r",Combination(4,6));
   }
 
   void test_exponential(void) {
