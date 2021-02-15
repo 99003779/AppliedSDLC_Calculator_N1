@@ -45,3 +45,12 @@
 | LLR_P_4|The terms inside () are simplified first followed by exponent and then terms are operated with the terms outside the bracket.|(2^9*2) + 9 / (e^3)|1204.76983|1204.76983|Logical
 LLR_P_5|An equation of the result of more than 8 digits is given by the user.|(10*5+100)*100|Error: Out of range| Error: Out of range| Boundary Based
 LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out of range| Requirement based
+
+
+| Test ID | Description | expected Input | Expected output | Actual output| Type of test
+|--|--|--|--|--|--|
+| LLR\_P\_1 | Finding the square of given number i.e. find power of number will be 2.|100^2 |10000 |10000|logic based
+| LLR\_P\_2 | Finding the cube of given number i.e. find power of number will be 3. | 10^3 | 1000 |1000|logic based
+| LLR\_P\_3 | Finding the power of given number i.e. find power of number will be any number | 2^5 | 32 | 32|logic based
+| LLR\_P\_4 | Finding the power of big number i.e. find power of number which results in digits more than 20|3^20 |3.48x10^9 |3.48x10^9 | Boundary based
+| LLR\_P\_5 | Finding the power of other then the numbers i.e. finding power of any operator or any other buttons |[^20Or +^60 | Error: Out of range |  Error: Out of range | Requirement based
