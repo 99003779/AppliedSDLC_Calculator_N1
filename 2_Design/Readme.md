@@ -7,6 +7,7 @@
 
 *
 ![HLR_Arthimetic](https://user-images.githubusercontent.com/78872643/107881235-7b5ccc00-6f09-11eb-8323-328c0d0825d1.png)
+*![HLR_Arthimetic](https://user-images.githubusercontent.com/78872643/107881235-7b5ccc00-6f09-11eb-8323-328c0d0825d1.png)
 ![HLR Structural (3723)](https://user-images.githubusercontent.com/78869361/107885208-f67cad00-6f1e-11eb-8842-d91f508dfdc9.jpg)
 ![StoreRecall_Class_Diagram](https://user-images.githubusercontent.com/78869160/107903095-58b0ce80-6f6e-11eb-9c7c-4803c64f738e.png)
 ![uml class diag for findingpower](https://user-images.githubusercontent.com/78869160/107903124-649c9080-6f6e-11eb-86b2-2dc13a984300.jpg)
@@ -16,10 +17,13 @@
 
 
 
+
 ## Low Level Design 
 
 --- TBD Structural and Behavioural Diagram
 * behavioural Diagram
+
+![Communication_LLR_diagram](https://user-images.githubusercontent.com/78869160/107902969-f952be80-6f6d-11eb-9e0e-7a8484ef6502.png)
 
 ![Communication_LLR_diagram](https://user-images.githubusercontent.com/78869160/107902969-f952be80-6f6d-11eb-9e0e-7a8484ef6502.png)
 
@@ -40,4 +44,5 @@
 ![LLR_StoreRecall_Object_Diagram](https://user-images.githubusercontent.com/78869160/107903085-53538400-6f6e-11eb-8cc6-91a9ab0a5d34.png)
 ![LLR Structural Class(Exponential)](https://user-images.githubusercontent.com/78869361/107885256-30e64a00-6f1f-11eb-9d1c-674aa0299773.jpg)
 ![Arithimetic_Component_Diagram](https://user-images.githubusercontent.com/78872643/107881200-55cfc280-6f09-11eb-958a-b920bd6ea864.png)
+![LLR_arithimetic_package_digram](https://user-images.githubusercontent.com/78872643/107881625-27eb7d80-6f0b-11eb-98b0-4b4714a7e513.png)
 ![LLR_arithimetic_package_digram](https://user-images.githubusercontent.com/78872643/107881625-27eb7d80-6f0b-11eb-98b0-4b4714a7e513.png)

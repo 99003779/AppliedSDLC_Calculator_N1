@@ -177,6 +177,13 @@ void calculator_menu(void)
 
             getchar();
             break;
+        case cubeRoot:
+             printf("\n\t%d / %d = %d\nEnter to continue",
+             calculator_operand1,
+             cuberoot(calculator_operand1));
+            
+             getchar();
+            break;
         case 17:
             exit(0);
             break;

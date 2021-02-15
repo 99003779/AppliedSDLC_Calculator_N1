@@ -8,9 +8,8 @@ We have attempted to build the software development cycle of a semi-engineering 
 There are different types of calculators with respect to the cost and its features. It is plotted in the graph shown below which shows the range of calculators for highest cost and lowest feature and vice versa. The range we have chosen is for a medium range cost and feature. It is similar to a programmable scientific calculator. It will be more efficient for the multipurpose use.
 
 
--- Content 
-## Cost and Features
-![Description](Link to Pic)
+
+
 
 # Cost of the Calculator 
 * Our Calculator will sum around 800 Rs , having all neccesary features required for all students 
@@ -28,20 +27,23 @@ There are different types of calculators with respect to the cost and its featur
 * Mean of the numbers
 * Conversion of numbers
 
--- Content 
+
 ## Defining Our System
-    -- TBD
+
 ## SWOT ANALYSIS
 ![SWOT Analysis](https://user-images.githubusercontent.com/78869361/107869760-91da3780-6eb7-11eb-83fb-4aace3c89394.jpg)
 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-* School students, college personnel of Science and Engineering , Professionals at industrial level
+* School students, 
+college personnel of Science and Engineering,
+Professionals at industrial level
 
 
 ## What:
-* Calculate problems in Science , engineering & mathematics. In some aspects of astronomy, physics and chemistry. 
+* Calculate problems in Science, engineering & mathematics. 
+In some aspects of astronomy, physics and chemistry. 
 
 ## When:
 
@@ -49,7 +51,7 @@ There are different types of calculators with respect to the cost and its featur
 
 ## Where:
 
-* Widely used in both educational and professinal settings(Institutions, laboratories)
+* Widely used in both educational and professinal settings(Institutions, laboratories).
 
 ## How:
 

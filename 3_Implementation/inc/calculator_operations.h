@@ -143,6 +143,14 @@ float exponential(float operand1, float operand2);
  * 
  */
 
+float cuberoot(float operand1);
+
+/**
+ * find the cuberoot of operand 1 and returns the result
+ * @param[in] operand1
+ * @return  cuberoot of number
+ * */
+
 
 
 #endif
