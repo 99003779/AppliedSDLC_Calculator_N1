@@ -76,7 +76,7 @@ In some aspects of astronomy, physics and chemistry.
 ##  Low level Requirements:
 Arithmetic Operation:
 ![Low Level Requirements](https://user-images.githubusercontent.com/78871033/107877502-e6e76f00-6ef2-11eb-9db1-a903f1b9325b.png)
-Precision:
+Precedence:
 |ID| Requirements  |Description| Status|
 |--|--|--|--|
 |BOD_1 | Bracket Type |For more than 1 operation, brackets((),[],{}) should be identified and executed first.|Implemented
@@ -111,3 +111,11 @@ Precision:
 |pre_3|Boundary Precision| user puts value of more then 10 then it must not except more then that and print limit exceeds as an output.| Implemented
 |COM_3|Formulae calculation combination |finds combination using the formulae.|Implemented
 |COM_1 |n<R |shows error when N<R|Implemented
+
+power:
+|ID| Requirements  |Description| Status|
+|--|--|--|--|
+|pre_1 |Library |Math library file will required in coding section.| Implemented
+|pre_2|power function| Requirement of power function while executing this section of program..| Implemented
+|pre_3|Data type |Must contain best suited data types else show| Implemented
+|pre_3|Boundary limit| Limit exceeds.| Implemented
