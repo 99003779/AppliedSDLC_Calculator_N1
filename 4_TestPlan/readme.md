@@ -24,7 +24,7 @@
 
 
 
-## Table no: Low level test plan
+## Table No 1.: Low level test plan
 
 | **Test ID** | **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
@@ -38,6 +38,7 @@
 |  H_08 | ExponentialF(x) =a(b^x) Where b is positive real no. & b not equal to 1 | x=3 a=2 b=2 | 16 | 16 | Requirement |
 |  H_09 | Power fxn F(x)= x^r Where r is greater than equals to 0 | x=2 r=3 | 8 | 8 | requirement |
 
+## Table No 2.: Low level test plan
 |Test ID | Description  |Expected Input| Expected Output| Actual output| Type of test
 |--|--|--|--|--|--|
 | LLR_P_1  |First, the operators within brackets are executed in order of multiplication and subtraction order and then add operator outside bracket.  |14 + (8 – 2 × 3)|16|16|Logical test
@@ -47,7 +48,7 @@
 LLR_P_5|An equation of the result of more than 8 digits is given by the user.|(10*5+100)*100|Error: Out of range| Error: Out of range| Boundary Based
 LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out of range| Requirement based
 
-
+## Table No 3.: Low level test plan
 | Test ID | Description | expected Input | Expected output | Actual output| Type of test
 |--|--|--|--|--|--|
 | LLR\_P\_1 | Finding the square of given number i.e. find power of number will be 2.|100^2 |10000 |10000|logic based
@@ -55,7 +56,8 @@ LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out 
 | LLR\_P\_3 | Finding the power of given number i.e. find power of number will be any number | 2^5 | 32 | 32|logic based
 | LLR\_P\_4 | Finding the power of big number i.e. find power of number which results in digits more than 20|3^20 |3.48x10^9 |3.48x10^9 | Boundary based
 | LLR\_P\_5 | Finding the power of other then the numbers i.e. finding power of any operator or any other buttons |[^20Or +^60 | Error: Out of range |  Error: Out of range | Requirement based
-
+ 
+## Table No 4.: Low level test plan 
 | Test ID | Description | expected Input | Expected output | Actual output| Type of test
 |--|--|--|--|--|--|
 | LLR\_P\_1 |finding LCM of two positive numbers|5,15 |75|75|logic based
@@ -63,6 +65,7 @@ LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out 
 | LLR\_P\_3 | finding LCM of one number as zero | 0,10| Error | Error |logic based
 | LLR\_P\_4 |finding LCM of two large numbers|100000,100000|Out of range| Out of range| Boundary based
 
+## Table No 5.: Low level test plan
 | Test ID | Description | expected Input | Expected output | Actual output| Type of test case
 |--|--|--|--|--|--|
 | LLR\_P\_1 |find permutation using the formula|3,2 |6|6|logic based
