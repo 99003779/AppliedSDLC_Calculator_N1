@@ -20,6 +20,9 @@ void test_Log(void);
 void test_antilog(void);
 void test_power(void);
 void test_GCD(void);
+void test_lengthconv(void);
+void test_tempconv(void);
+void test_degreetorad(void);
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -48,6 +51,9 @@ RUN_TEST (test_Log);
 RUN_TEST (test_antilog);
 RUN_TEST (test_power);
 RUN_TEST (test_GCD);
+RUN_TEST_lengthconv(void);
+RUN_TEST_tempconv(void);
+RUN_TEST_degreetorad(void);
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
@@ -118,3 +124,25 @@ void test_lcm(void) {
     /* Dummy fail */
     TEST_ASSERT_EQUAL(6,cuberoot(2,2,3));
   }
+
+//void test_lengthconv(void) {
+//  TEST_ASSERT_EQUAL(0,factorial(5));
+  
+  /* Dummy fail*/
+ // TEST_ASSERT_EQUAL(4,factorail(555));
+//}
+
+//void test_tempconv(void) {
+ // TEST_ASSERT_EQUAL(0,factorial(5));
+  
+  /* Dummy fail*/
+ // TEST_ASSERT_EQUAL(4,factorail(555));
+//}
+
+//void test_degreetorad(void) {
+ // TEST_ASSERT_EQUAL(0,factorial(5));
+  
+  /* Dummy fail*/
+ // TEST_ASSERT_EQUAL(4,factorail(555));
+//}
+
