@@ -102,6 +102,8 @@ Permutation and combination:
 |--|--|--|--|
 |PER_1 |n<R |shows error when N<R|Implemented
 |PER_2|Formulae calculation Permutation|finds permutation using the formulae|Implemented
+|COM_1 |n<R |shows error when N<R|Implemented
+|COM_2|Formulae calculation combination|finds combination using the formulae|Implemented
 
 Precision:
 |ID| Requirements  |Description| Status|
