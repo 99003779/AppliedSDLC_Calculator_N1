@@ -113,7 +113,7 @@ float lengthconv(float operand1)
 
 
 float tempconv(float operand1,float operand2);
-
+{
     printf("Enter the temperature in Celcius: ");
 
     scanf("%f",operand1);
@@ -121,4 +121,16 @@ float tempconv(float operand1,float operand2);
     f = c * 9/5 + 32;
 
     printf("Temperature in Farenheit: %f",operand2);
+}
+
+float deg,rad;
+{
+    printf("Enter the degree= ");
+    scanf("%f",degree);
+
+    //convert degree to rad
+    rad=(3.14/180)*deg;
+
+    printf("deg %f in rad is %f\n, deg,rad);
+           
 }
