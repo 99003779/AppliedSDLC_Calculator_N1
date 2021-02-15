@@ -25,7 +25,6 @@
 
 ![Communication_LLR_diagram](https://user-images.githubusercontent.com/78869160/107902969-f952be80-6f6d-11eb-9e0e-7a8484ef6502.png)
 
-![Communication_LLR_diagram](https://user-images.githubusercontent.com/78869160/107902969-f952be80-6f6d-11eb-9e0e-7a8484ef6502.png)
 
 ![LLR_for PnC](https://user-images.githubusercontent.com/78872643/107881609-0b4f4580-6f0b-11eb-8932-6801cbc59e5b.jpg)
 ![activity_dia_of_ precision](https://user-images.githubusercontent.com/78872643/107881635-36399980-6f0b-11eb-853f-3868de7f7e23.png)
@@ -45,4 +44,4 @@
 ![LLR Structural Class(Exponential)](https://user-images.githubusercontent.com/78869361/107885256-30e64a00-6f1f-11eb-9d1c-674aa0299773.jpg)
 ![Arithimetic_Component_Diagram](https://user-images.githubusercontent.com/78872643/107881200-55cfc280-6f09-11eb-958a-b920bd6ea864.png)
 ![LLR_arithimetic_package_digram](https://user-images.githubusercontent.com/78872643/107881625-27eb7d80-6f0b-11eb-98b0-4b4714a7e513.png)
-![LLR_arithimetic_package_digram](https://user-images.githubusercontent.com/78872643/107881625-27eb7d80-6f0b-11eb-98b0-4b4714a7e513.png)
+
