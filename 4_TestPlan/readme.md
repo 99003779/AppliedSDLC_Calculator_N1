@@ -54,3 +54,10 @@ LLR_P_6|Values up to 9 digits |3+(3*4+5)*3/10+1|Error: Out of range| Error: Out 
 | LLR\_P\_3 | Finding the power of given number i.e. find power of number will be any number | 2^5 | 32 | 32|logic based
 | LLR\_P\_4 | Finding the power of big number i.e. find power of number which results in digits more than 20|3^20 |3.48x10^9 |3.48x10^9 | Boundary based
 | LLR\_P\_5 | Finding the power of other then the numbers i.e. finding power of any operator or any other buttons |[^20Or +^60 | Error: Out of range |  Error: Out of range | Requirement based
+
+| Test ID | Description | expected Input | Expected output | Actual output| Type of test
+|--|--|--|--|--|--|
+| LLR\_P\_1 |finding LCM of two positive numbers|100^2 |10000 |10000|logic based
+| LLR\_P\_2 |finding LCM of any one negative number| 10^3 | 1000 |1000|logic based
+| LLR\_P\_3 | finding LCM of one number as zero | 2^5 | 32 | 32|logic based
+| LLR\_P\_4 |finding LCM of two large numbers|3^20 |3.48x10^9 |3.48x10^9 | Boundary based
