@@ -89,9 +89,25 @@ Precision:
 |BOD_8|Bracket order 7| For more than 1 operation, subtraction should be identified and executed after Addition.|Implemented
 |BOD_9|Bracket order 8| For more than 1 operation, the calculation should start from left to right.| Implemented
 
+Store and Recall:
 |ID| Requirements  |Description| Status|
 |--|--|--|--|
 |BOD_1 | Stored value |-   Capable of storing values for 50 days|Implemented
 |BOD_2|MC function|-   Pressing ‘MC’ and 0 clears the memory|Implemented
 |BOD_3|Memory storage|-   Stores up to 5 memories.|Implemented
 |BOD_4|Memory style| -   Show all memories in a first in last out style after every click|Implemented
+
+Permutation and combination:
+|ID| Requirements  |Description| Status|
+|--|--|--|--|
+|PER_1 |n<R |shows error when N<R|Implemented
+|PER_2|Formulae calculation Permutation|finds permutation using the formulae|Implemented
+
+Precision:
+|ID| Requirements  |Description| Status|
+|--|--|--|--|
+|pre_1 |Multiplication power |When multiplication of 10 digit it should show in power of ten| Implemented
+|pre_2|divided by 0|-   When value is divided by zero then zero then it should through error.| Implemented
+|pre_3|Boundary Precision| user puts value of more then 10 then it must not except more then that and print limit exceeds as an output.| Implemented
+|COM_3|Formulae calculation combination |finds combination using the formulae.|Implemented
+|COM_1 |n<R |shows error when N<R|Implemented
