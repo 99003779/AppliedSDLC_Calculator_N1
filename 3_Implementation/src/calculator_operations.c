@@ -97,40 +97,27 @@ float cubeRoot(float operand1,float operand2,float operand3)
 }
 float lengthconv(float operand1)
 {
-    float cm, meter, km;
+    float cm, km;
 
     /* Input length in centimeter from user */
-    printf("Enter length in centimeter: ");
+    //printf("Enter length in centimeter: ");
     scanf("%f", &cm);
 
     /* Convert centimeter into meter and kilometer */
-    meter = cm / 100.0;
+    //meter = cm / 100.0;
     km    = cm / 100000.0;
 
-    printf("Length in Meter = %.2f m \n", meter);
-    printf("Length in Kilometer = %.2f km", km);
+return km;
+  
 }
 
 
-float tempconv(float operand1,float operand2);
+float tempconv(float operand1)
 {
-    printf("Enter the temperature in Celcius: ");
+    //printf("Enter the temperature in Celcius: ");
+float f;
+    scanf("%f",&operand1);
 
-    scanf("%f",operand1);
-
-    f = c * 9/5 + 32;
-
-    printf("Temperature in Farenheit: %f",operand2);
-}
-
-float deg,rad;
-{
-    printf("Enter the degree= ");
-    scanf("%f",degree);
-
-    //convert degree to rad
-    rad=(3.14/180)*deg;
-
-    printf("deg %f in rad is %f\n, deg,rad);
-           
+    f = (operand1 * 9/5) + 32;
+    return f;
 }
