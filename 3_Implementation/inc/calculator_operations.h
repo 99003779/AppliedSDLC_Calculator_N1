@@ -61,4 +61,48 @@ float Exponential(float operand1, float operand2);
 float Modulus(int operand1, int operand2);
 float Antilog10(double operand1);
 float AntilogBase2(double operand1);
+
+
+//Abhishek'S Function declaration Starts
+
+//Root function declaration
+
+double findSquareroot(double operand1);
+
+double findcubeRoot(double operand1);
+
+//Logarithmic Function Declaration
+
+//double LOG(float operand1);
+
+//Trigonometric fFunction Declaration
+
+double Sine_for_degree(double operand1);
+
+double Sine_for_radian(double operand1);
+
+double Cosine_for_degree(double operand1);
+
+double Cosine_for_radian(double operand1);
+
+double Tan_for_degree(double operand1);
+
+double Tan_for_radian(double operand1);
+
+double Cosec_for_degree(double operand1);
+
+double Cosec_for_radian(double operand1);
+
+double Sec_for_degree(double operand1);
+
+double Sec_for_radian(double operand1);
+
+double Cot_for_degree(double operand1);
+
+double Cot_for_radian(double operand1);
+
+//Abhishek'S Function declaration end
+
+
+
 #endif
