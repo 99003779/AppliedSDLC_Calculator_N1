@@ -56,6 +56,9 @@ int gcd(int operand1, int operand2);
 float lcm(int operand1, int operand2);
 float Combination(float operand1, float operand2);
 float Permutation(float operand1, float operand2);
-
-
+float Factorial(float operand1);
+float Exponential(float operand1, float operand2);
+float Modulus(int operand1, int operand2);
+float Antilog10(double operand1);
+float AntilogBase2(double operand1);
 #endif

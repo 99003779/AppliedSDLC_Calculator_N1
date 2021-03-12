@@ -124,9 +124,40 @@ void calculator_menu(void)
 
             getchar();
             break;
+         case factorial:
+            printf("\n\t%d / %d = %d\nEnter to continue",
+            calculator_operand3,
+            Factorial(calculator_operand3));
+
+            getchar();
+            break; 
         
-        
-        
+        case exp:
+            printf("\n\t%d / %d = %d\nEnter to continue", 
+            calculator_operand1, 
+            calculator_operand2,
+            Exponential(calculator_operand1, calculator_operand2));
+            getchar();
+            break;
+        case mods:
+            printf("\n\t%d / %d = %d\nEnter to continue", 
+            calculator_operand1, 
+            calculator_operand2,
+            Modulus(calculator_operand1, calculator_operand2));
+            getchar();
+            break;    
+        case anti:
+            printf("\n\t%d / %d = %d\nEnter to continue", 
+            calculator_operand1, 
+            Antilog10(calculator_operand1));
+            getchar();
+            break;     
+         case anti2:
+            printf("\n\t%d / %d = %d\nEnter to continue", 
+            calculator_operand1, 
+            AntilogBase2(calculator_operand1));
+            getchar();
+            break;     
         
 
 int valid_operation(int operation)

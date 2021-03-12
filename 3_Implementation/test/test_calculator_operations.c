@@ -50,6 +50,36 @@ void test_permutation_testcase3(void);
 void test_permutation_testcase4(void);
 void test_permutation_testcase5(void);
 void test_permutation_testcase6(void);
+
+void test_factorial_testcase1(void);
+void test_factorial_testcase2(void);
+void test_factorial_testcase3(void);
+void test_factorial_testcase4(void);
+void test_factorial_testcase5(void);
+
+void test_exponential_testcase1(void);
+void test_exponential_testcase2(void);
+void test_exponential_testcase3(void);
+void test_exponential_testcase4(void);
+void test_exponential_testcase5(void);
+
+void test_Modulus_testcase1(void);
+void test_Modulus_testcase2(void);
+void test_Modulus_testcase3(void);
+void test_Modulus_testcase4(void);
+void test_Modulus_testcase5(void);
+
+void test_Antilog10_testcase1(void);
+void test_Antilog10_testcase2(void);
+void test_Antilog10_testcase3(void);
+void test_Antilog10_testcase4(void);
+void test_Antilog10_testcase5(void);
+
+void test_AntilogBase2_testcase1(void);
+void test_AntilogBase2_testcase2(void);
+void test_AntilogBase2_testcase3(void);
+
+
 /* Required by the unity test framework */
 void setUp(){}
 /* Required by the unity test framework */
@@ -102,6 +132,37 @@ RUN_TEST(test_divide_test5);
   RUN_TEST(test_permutation_testcase4);
   RUN_TEST(test_permutation_testcase5);
   RUN_TEST(test_permutation_testcase6);
+
+
+  RUN_TEST(test_factorial_testcase1);
+  RUN_TEST(test_factorial_testcase2);
+  RUN_TEST(test_factorial_testcase3);
+  RUN_TEST(test_factorial_testcase4);
+  RUN_TEST(test_factorial_testcase5);
+
+  RUN_TEST(test_exponential_testcase1);
+  RUN_TEST(test_exponential_testcase2);
+  RUN_TEST(test_exponential_testcase3);
+  RUN_TEST(test_exponential_testcase4);
+  RUN_TEST(test_exponential_testcase5);
+
+RUN_TEST(test_Modulus_testcase1);
+RUN_TEST(test_Modulus_testcase2);
+RUN_TEST(test_Modulus_testcase3);
+RUN_TEST(test_Modulus_testcase4);
+RUN_TEST(test_Modulus_testcase5);
+
+
+RUN_TEST(test_Antilog10_testcase1);
+RUN_TEST(test_Antilog10_testcase2);
+RUN_TEST(test_Antilog10_testcase3);
+RUN_TEST(test_Antilog10_testcase4);
+RUN_TEST(test_Antilog10_testcase5);
+
+RUN_TEST(test_AntilogBase2_testcase1);
+RUN_TEST(test_AntilogBase2_testcase2);
+RUN_TEST(test_AntilogBase2_testcase3);
+
 
   return UNITY_END();
 }
@@ -259,4 +320,113 @@ void test_permutation_testcase5(void)
 void test_permutation_testcase6(void)
 {
     TEST_ASSERT_EQUAL(-1, Permutation(3, 5));
+}
+
+
+void test_factorial_testcase1(void)
+{
+    TEST_ASSERT_EQUAL(120, Factorial(5));
+}
+
+void test_factorial_testcase2(void)
+{
+    TEST_ASSERT_EQUAL(720, Factorial(6));
+}
+void test_factorial_testcase3(void)
+{
+    TEST_ASSERT_EQUAL(1, Factorial(0));
+}
+void test_factorial_testcase4(void)
+{
+    TEST_ASSERT_EQUAL(24, Factorial(4));
+}
+void test_factorial_testcase5(void)
+{
+    TEST_ASSERT_EQUAL(3628800.0, Factorial(10));
+}
+
+
+void test_exponential_testcase1(void) {
+  TEST_ASSERT_EQUAL(8,Exponential(2, 3));
+  
+  /* Dummy fail */
+  //TEST_ASSERT_EQUAL(5,exponential(2,-3));
+}
+void test_exponential_testcase2(void) {
+  TEST_ASSERT_EQUAL(8,Exponential(2, 3));
+
+}
+void test_exponential_testcase3(void) {
+  TEST_ASSERT_EQUAL(1024,Exponential(4, 5));
+
+}
+
+void test_exponential_testcase4(void) {
+  TEST_ASSERT_EQUAL(0.0625,Exponential(4, -2));
+
+}
+
+void test_exponential_testcase5(void) {
+  TEST_ASSERT_EQUAL(1,Exponential(1, 0));
+
+}
+
+void test_Modulus_testcase1(void) {
+  TEST_ASSERT_EQUAL(2,Modulus(8, 3));
+
+  /* Dummy fail */
+ // TEST_ASSERT_EQUAL(1,Modulus(8,3));
+}
+void test_Modulus_testcase2(void) {
+  TEST_ASSERT_EQUAL(2,Modulus(8, 3));
+}
+void test_Modulus_testcase3(void) {
+  TEST_ASSERT_EQUAL(1,Modulus(15, 7));
+}
+void test_Modulus_testcase4(void) {
+  TEST_ASSERT_EQUAL(1,Modulus(0, 10));
+}
+void test_Modulus_testcase5(void) {
+  TEST_ASSERT_EQUAL(0,Modulus(-99, 3));
+}
+
+
+
+void test_Antilog10_testcase1(void) {
+  TEST_ASSERT_EQUAL(10000.000000 ,Antilog10(4));
+
+  /* Dummy fail */
+ // TEST_ASSERT_EQUAL(1,Antilog10(8,3));
+}
+void test_Antilog10_testcase2(void) {
+  TEST_ASSERT_EQUAL(100000.000000 ,Antilog10(5));
+
+}
+void test_Antilog10_testcase3(void) {
+  TEST_ASSERT_EQUAL(10000.000000 ,Antilog10(4));
+
+}
+void test_Antilog10_testcase4(void) {
+  TEST_ASSERT_EQUAL(0.00001 ,Antilog10(-5));
+
+}
+void test_Antilog10_testcase5(void) {
+  TEST_ASSERT_EQUAL(0 ,Antilog10(-50));
+
+}
+
+
+void test_AntilogBase2_testcase1(void) {
+  TEST_ASSERT_EQUAL(16 ,AntilogBase2(4));
+
+  /* Dummy fail */
+ // TEST_ASSERT_EQUAL(1,Modulus(8,3));
+}
+void test_AntilogBase2_testcase2(void) {
+  TEST_ASSERT_EQUAL(0.0625 ,AntilogBase2(-4));
+
+}
+void test_AntilogBase2_testcase3(void) {
+  TEST_ASSERT_EQUAL(1 ,AntilogBase2(0));
+
 }
