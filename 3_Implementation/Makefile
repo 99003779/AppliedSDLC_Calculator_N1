@@ -6,12 +6,13 @@ BUILD = build
 
 # All source code files
 SRC = project_main.c\
-src/calculator_operations.c
+src/calculator_operations.c\
+src/calc_operat.c
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
 test/test_calculator_operations.c\
-unity/unity.c\
+unity/unity.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
 
@@ -41,7 +42,7 @@ all: $(SRC) $(BUILD)
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).exe
+	./$(PROJECT_OUTPUT).out
 
 # Document the code using Doxygen
 #doc:
@@ -50,6 +51,10 @@ run:$(PROJECT_NAME)
 # Build and run the unit tests
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+#Coverage
+coverageCheck:$(BUILD)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
 
 # Remove all the built files, invoke by `make clean`
