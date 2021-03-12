@@ -63,6 +63,42 @@ void test_exponential_testcase3(void);
 void test_exponential_testcase4(void);
 void test_exponential_testcase5(void);
 
+void test_findSquareroot(void);
+
+
+void test_findSquareroot_testcase1(void);//positive case
+void test_findSquareroot_testcase2(void);//0 case
+void test_findSquareroot_testcase3(void);//decimal case
+void test_findSquareroot_testcase4(void);//negative case
+
+void test_findcubeRoot_testcase1(void);//positive case 
+void test_findcubeRoot_testcase2(void);//0 case
+void test_findcubeRoot_testcase3(void);//decimal case
+void test_findcubeRoot_testcase4(void);// negative case
+
+void test_Sine_for_degree_testcase1(void);
+void test_Sine_for_degree_testcase2(void);
+void test_Sine_for_degree_testcase3(void);
+void test_Sine_for_degree_testcase4(void);
+void test_Sine_for_degree_testcase5(void);
+void test_Sine_for_degree_testcase6(void);
+
+
+void test_Cosine_for_degree_testcase1(void);
+void test_Cosine_for_degree_testcase2(void);
+void test_Cosine_for_degree_testcase3(void);
+void test_Cosine_for_degree_testcase4(void);
+void test_Cosine_for_degree_testcase5(void);
+void test_Cosine_for_degree_testcase6(void);
+
+
+void test_Tan_for_degree_testcase1(void);
+void test_Tan_for_degree_testcase2(void);
+void test_Tan_for_degree_testcase3(void);
+void test_Tan_for_degree_testcase4(void);
+void test_Tan_for_degree_testcase5(void);
+void test_Tan_for_degree_testcase6(void);
+
 void test_Modulus_testcase1(void);
 void test_Modulus_testcase2(void);
 void test_Modulus_testcase3(void);
@@ -145,6 +181,39 @@ RUN_TEST(test_divide_test5);
   RUN_TEST(test_exponential_testcase3);
   RUN_TEST(test_exponential_testcase4);
   RUN_TEST(test_exponential_testcase5);
+
+
+  RUN_TEST(test_findSquareroot_testcase1);
+  RUN_TEST(test_findSquareroot_testcase2);
+  RUN_TEST(test_findSquareroot_testcase3);
+  RUN_TEST(test_findSquareroot_testcase4);
+
+ 
+ RUN_TEST(test_findcubeRoot_testcase1);
+ RUN_TEST(test_findcubeRoot_testcase2);
+ RUN_TEST(test_findcubeRoot_testcase3);
+ RUN_TEST(test_findcubeRoot_testcase4);
+
+ RUN_TEST(test_Sine_for_degree_testcase1);
+ RUN_TEST(test_Sine_for_degree_testcase2);
+ RUN_TEST(test_Sine_for_degree_testcase3);
+ RUN_TEST(test_Sine_for_degree_testcase4);
+ RUN_TEST(test_Sine_for_degree_testcase5);
+
+
+
+RUN_TEST(test_Cosine_for_degree_testcase1);
+RUN_TEST(test_Cosine_for_degree_testcase2);
+RUN_TEST(test_Cosine_for_degree_testcase3);
+RUN_TEST(test_Cosine_for_degree_testcase4);
+RUN_TEST(test_Cosine_for_degree_testcase5);
+
+
+RUN_TEST(test_Tan_for_degree_testcase1);
+RUN_TEST(test_Tan_for_degree_testcase2);
+RUN_TEST(test_Tan_for_degree_testcase3);
+RUN_TEST(test_Tan_for_degree_testcase4);
+RUN_TEST(test_Tan_for_degree_testcase5);
 
 RUN_TEST(test_Modulus_testcase1);
 RUN_TEST(test_Modulus_testcase2);
@@ -345,6 +414,21 @@ void test_factorial_testcase5(void)
     TEST_ASSERT_EQUAL(3628800.0, Factorial(10));
 }
 
+void test_LOG_testcase1(void)
+{
+  TEST_ASSERT_EQUAL(0, LOG(1));
+}
+
+
+void test_LOG_testcase2(void)
+{
+  TEST_ASSERT_EQUAL(0, LOG(1));
+}
+
+void test_LOG_testcase3(void)
+{
+  TEST_ASSERT_EQUAL(0, LOG(1));
+}
 
 void test_exponential_testcase1(void) {
   TEST_ASSERT_EQUAL(8,Exponential(2, 3));
@@ -370,6 +454,214 @@ void test_exponential_testcase5(void) {
   TEST_ASSERT_EQUAL(1,Exponential(1, 0));
 
 }
+
+
+void test_findSquareroot_testcase1(void)
+
+{
+
+TEST_ASSERT_EQUAL(4, findSquareroot(16));
+
+}
+
+
+void test_findSquareroot_testcase2(void)
+
+{
+
+TEST_ASSERT_EQUAL(0, findSquareroot(0));
+
+}
+
+
+void test_findSquareroot_testcase3(void)
+
+{
+
+TEST_ASSERT_EQUAL(2.93, findSquareroot(8.6));
+
+}
+
+
+void test_findSquareroot_testcase4(void)
+
+{
+
+TEST_ASSERT_EQUAL(10000, findSquareroot(100000000));
+
+}
+
+
+
+void test_findcubeRoot_testcase1(void)
+
+{
+
+TEST_ASSERT_EQUAL(2, findcubeRoot(8));
+
+}
+
+
+void test_findcubeRoot_testcase2(void)
+
+{
+
+TEST_ASSERT_EQUAL(0, findcubeRoot(0));
+
+}
+
+void test_findcubeRoot_testcase3(void)
+
+{
+
+TEST_ASSERT_EQUAL(2, findcubeRoot(8));
+
+}
+
+void test_findcubeRoot_testcase4(void)
+
+{
+
+TEST_ASSERT_EQUAL(2, findcubeRoot(8));
+
+}
+
+
+void test_Sine_for_degree_testcase1(void)
+
+{
+
+TEST_ASSERT_EQUAL(1,  Sine_for_degree(90));
+
+}
+
+
+void test_Sine_for_degree_testcase2(void)
+
+{
+
+TEST_ASSERT_EQUAL(0.5,  Sine_for_degree(45));
+
+}
+
+
+void test_Sine_for_degree_testcase3(void)
+
+{
+
+TEST_ASSERT_EQUAL(0,  Sine_for_degree(0));
+
+}
+
+
+
+
+void test_Sine_for_degree_testcase4(void)
+
+{
+
+TEST_ASSERT_EQUAL(-1,  Sine_for_degree(-90));
+
+}
+
+
+void test_Sine_for_degree_testcase5(void)
+
+{
+
+TEST_ASSERT_EQUAL(0,  Sine_for_degree(360));
+
+}
+
+
+void test_Cosine_for_degree_testcase1(void)
+
+{
+
+TEST_ASSERT_EQUAL(0,  Cosine_for_degree(90));
+
+}
+
+
+void test_Cosine_for_degree_testcase2(void)
+
+{
+
+TEST_ASSERT_EQUAL(1,  Cosine_for_degree(0));
+
+}
+
+
+void test_Cosine_for_degree_testcase3(void)
+
+{
+
+TEST_ASSERT_EQUAL(0.5,  Cosine_for_degree(45));
+
+}
+
+
+void test_Cosine_for_degree_testcase4(void)
+
+{
+
+TEST_ASSERT_EQUAL(0,  Cosine_for_degree(-360));
+
+}
+
+void test_Cosine_for_degree_testcase5(void)
+
+{
+
+TEST_ASSERT_EQUAL(0,  Cosine_for_degree(90));
+
+}
+
+
+void test_Tan_for_degree_testcase1(void)
+
+{
+
+TEST_ASSERT_EQUAL(0,  Tan_for_degree(0));
+
+}
+
+void test_Tan_for_degree_testcase2(void)
+
+{
+
+TEST_ASSERT_EQUAL(-9670099380792,  Tan_for_degree(90));
+
+}
+
+
+void test_Tan_for_degree_testcase3(void)
+
+{
+
+TEST_ASSERT_EQUAL(1,  Tan_for_degree(45));
+
+}
+
+
+
+void test_Tan_for_degree_testcase4(void)
+
+{
+
+TEST_ASSERT_EQUAL(0,  Tan_for_degree(360));
+
+}
+
+
+void test_Tan_for_degree_testcase5(void)
+
+{
+
+TEST_ASSERT_EQUAL(9670099380792,  Tan_for_degree(-90));
+
+}
+
 
 void test_Modulus_testcase1(void) {
   TEST_ASSERT_EQUAL(2,Modulus(8, 3));
@@ -430,3 +722,4 @@ void test_AntilogBase2_testcase3(void) {
   TEST_ASSERT_EQUAL(1 ,AntilogBase2(0));
 
 }
+
