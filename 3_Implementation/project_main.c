@@ -15,7 +15,7 @@ float calculator_operand4 = 0;
 float calculator_result=0;
 double calculator_operand5 = 0;
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, GCD, LCM, combination, factorial,permutation,Sqrroot,cbroot,Sindeg,Cosdeg,Tandeg,exp,mods,anti,anti2, EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, GCD, LCM, combination, factorial,permutation,log,Sqrroot,cbroot,Sindeg,Cosdeg,Tandeg,exp,mods,anti,anti2, EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -237,7 +237,7 @@ void calculator_menu(void)
             AntilogBase2(calculator_operand1));
             getchar();
             break;  
-        case 19:
+        case 20:
             exit(0);
             break;
         default:

@@ -57,6 +57,10 @@ void test_factorial_testcase3(void);
 void test_factorial_testcase4(void);
 void test_factorial_testcase5(void);
 
+void test_LOG_testcase1(void);
+void test_LOG_testcase2(void);
+void test_LOG_testcase3(void);
+
 void test_exponential_testcase1(void);
 void test_exponential_testcase2(void);
 void test_exponential_testcase3(void);
@@ -176,6 +180,10 @@ RUN_TEST(test_divide_test5);
   RUN_TEST(test_factorial_testcase4);
   RUN_TEST(test_factorial_testcase5);
 
+RUN_TEST(test_LOG_testcase1);
+  RUN_TEST(test_LOG_testcase2);
+  RUN_TEST(test_LOG_testcase3);
+  
   RUN_TEST(test_exponential_testcase1);
   RUN_TEST(test_exponential_testcase2);
   RUN_TEST(test_exponential_testcase3);
