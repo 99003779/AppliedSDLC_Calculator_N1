@@ -1,4 +1,4 @@
-#include "calculator_operations.h"
+#include <calculator_operations.h>
 
 /* Status of the operation requested */
 #define VALID   (1)
@@ -8,13 +8,14 @@
 unsigned int calculator_operation = 0;
 
 /* Operands on which calculation is performed */
-float calculator_operand1 = 0;
-float calculator_operand2 = 0;
-int calculator_operand3 = 0;
-int calculator_operand4 = 0;
-
+int calculator_operand1 = 0;
+int calculator_operand2 = 0;
+float calculator_operand3 = 0;
+float calculator_operand4 = 0;
+float calculator_result=0;
+double calculator_operand5 = 0;
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, GCD, SINE, COS, TAN, power, log, antilog, LCM, combination, permutation, factorial, Exponential, cubeRoot, lengthconv, tempconv, degreetorad,  EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, GCD, LCM, combination, factorial,permutation,log,Sqrroot,cbroot,Sindeg,Cosdeg,Tandeg,exp,mods,anti,anti2, EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -35,9 +36,10 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. GCD\n6. SINE\n7. COS\n8. TAN\n9. power\n10. log\n11. antilog\n12.LCM\n 13.combination\n 14.permutation\n 15.factorial\n 16.Exponential\n 17.Lengthconv\n 18.TempConv\n 19. DegreetoRad\n 20. Exit");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n 5. Exit");
     printf("\n\tEnter your choice\n");
    
+     // __fpurge(stdin);
     scanf("%d", &calculator_operation);
 
     if(EXIT == calculator_operation)
@@ -49,11 +51,13 @@ void calculator_menu(void)
     if(INVALID != valid_operation(calculator_operation))
     {
         printf("\n\tEnter your Numbers with space between them\n");
+        // __fpurge(stdin);
         scanf("%d %d", &calculator_operand1, &calculator_operand2);
     }
     else
     {
         printf("\n\t---Wrong choice---\nEnter to continue\n");
+        // __fpurge(stdin);
         getchar();
         return;
         
@@ -65,6 +69,8 @@ void calculator_menu(void)
             calculator_operand1, 
             calculator_operand2,
             add(calculator_operand1, calculator_operand2));
+            
+            // __fpurge(stdin);
             getchar();
             break;
         case SUBTRACT:
@@ -72,7 +78,8 @@ void calculator_menu(void)
             calculator_operand1, 
             calculator_operand2,
             subtract(calculator_operand1, calculator_operand2));
-
+            
+            // __fpurge(stdin);
             getchar();
             break;
         case MULTIPLY:
@@ -80,7 +87,8 @@ void calculator_menu(void)
             calculator_operand1, 
             calculator_operand2,
             multiply(calculator_operand1, calculator_operand2));
-
+            
+            // __fpurge(stdin);
             getchar();
             break;
         case DIVIDE:
@@ -88,7 +96,8 @@ void calculator_menu(void)
             calculator_operand1, 
             calculator_operand2,
             divide(calculator_operand1, calculator_operand2));
-
+            
+            // __fpurge(stdin);
             getchar();
             break;
         case GCD:
@@ -99,123 +108,29 @@ void calculator_menu(void)
 
             getchar();
             break;
-        case SINE:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1,
-            sin(calculator_operand1));
-
-            getchar();
-            break;
-        case COS:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            cos(calculator_operand1));
-
-            getchar();
-            break;
-        case TAN:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            tan(calculator_operand1));
-
-            getchar();
-            break;
-      
-        case log:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            
-            LOG(calculator_operand1));
-
-            getchar();
-            break;    
-        case antilog:
+        case LCM:
             printf("\n\t%d / %d = %d\nEnter to continue", 
             calculator_operand1, 
             calculator_operand2,
-            ANTILOG(calculator_operand1));
-
-            getchar();
-            break;  
-
-        case LCM:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand3, 
-            calculator_operand4,
-            lcm(calculator_operand3, calculator_operand4));
+            lcm(calculator_operand1, calculator_operand2));
 
             getchar();
             break; 
         case combination:
             printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            Combination(calculator_operand1, calculator_operand2));
+            calculator_operand3, 
+            calculator_operand4,
+            Combination(calculator_operand3, calculator_operand4));
 
             getchar();
-            break; 
-        case permutation:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
-            calculator_operand1, 
-            calculator_operand2,
-            Permutation(calculator_operand1, calculator_operand2));
-
-            getchar();
-            break;  
-        case factorial:
-            printf("\n\t%d / %d = %d\nEnter to continue",
-            calculator_operand1,
-            Factorial(calculator_operand1));
-
-            getchar();
-            break;
-        case Exponential:
-            printf("\n\t%d / %d = %d\nEnter to continue",
-            calculator_operand1,
-            calculator_operand2,
-            exponential(calculator_operand1,calculator_operand2));
-
-            getchar();
-            break;
-        case cuberoot:
-             printf("\n\t%d / %d = %d\nEnter to continue",
-              calculator_operand1,calculator_operand2,calculator_operand3,
-             cuberoot(calculator_operand1,calculator_operand2,calculator_operand3));
-                        
-             getchar();
-            break;
-        case lengthconv:
-             printf("\n\t%d / %d = %d\nEnter to continue",
-             calculator_operand1,
-            lengthconv(calculator_operand1));
-            
-             getchar();
-            break;
-        case tempconv:
-             printf("\n\t%d / %d = %d\nEnter to continue",
-             calculator_operand1,
-             tempconv(calculator_operand1));
-            
-             getchar();
-            break;
-        case degreetorad:
-             printf("\n\t%d / %d = %d\nEnter to continue",
-             calculator_operand1,
-             degreetorad(calculator_operand1));
-            
-             getchar();
-            break;
-        case 21:
-            exit(0);
             break;
         
-        default:
-            printf("\n\t---It should never come here---\n");
-    }
-}
+        
+        
+        
 
 int valid_operation(int operation)
 {
     /* Check if the operation is a valid operation */
     return ((ADD <= operation) && (EXIT >= operation)) ? VALID: INVALID;
-}
+}       
