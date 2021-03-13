@@ -1,23 +1,19 @@
-name: C/C++ CI
+name: Code Quality - Static Code - Cppcheck
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
-  build:
+  cppcheck:
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - name: Install cppcheck
+      run: sudo apt -y install cppcheck
+    - name: Run cppcheck
+      run: cppcheck 3_Implementation
