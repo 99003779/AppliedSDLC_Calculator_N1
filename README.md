@@ -4,8 +4,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI - Build Status](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/c-cpp.yml/badge.svg)]|[![Cppcheck](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/cppcheck.yml/badge.svg)] [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)] [![Codacy Security Scan](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/codacy-analysis.yml/badge.svg)] | [![Unit Testing - Unity](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/unity.yml/badge.svg)] | [![Contribution Check - Git Inspector](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/gitinspector1.yml/badge.svg)]
-
+![C/C++ CI - Build Status](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/c-cpp.yml/badge.svg)|![Cppcheck](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/cppcheck.yml/badge.svg) ![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/CodeQuality_Dynamic.yml/badge.svg) ![Codacy Security Scan](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/codacy-analysis.yml/badge.svg) | ![Unit Testing - Unity](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/unity.yml/badge.svg) |![Contribution Check - Git Inspector](https://github.com/99003721/AppliedSDLC_Calculator_N1/actions/workflows/gitinspector1.yml/badge.svg)
 
 
 ## Folder Structure
