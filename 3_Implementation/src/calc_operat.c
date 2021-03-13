@@ -10,12 +10,12 @@ float LOG(float operand1)
 
 float Exponential(float operand1,float operand2)
 {
-    float result,t;
+    float result,temp;
     result=pow(operand1,operand2);
     for(int i=1;i<=operand2;i++)
     {
-        t=t*operand1/i;
-        result=result+t;
+        temp=temp*operand1/i;
+        result=result+temp;
     }
     
     return result;
