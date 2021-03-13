@@ -11,6 +11,7 @@ src/calc_operat.c
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
+src/calc_operat.c\
 test/test_calculator_operations.c\
 unity/unity.c
 
