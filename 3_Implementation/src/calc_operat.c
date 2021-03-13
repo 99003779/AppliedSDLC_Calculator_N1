@@ -7,7 +7,7 @@ float LOG(float operand1)
         return log(operand1);
 }
 
-
+ 
 float Exponential(float operand1,float operand2)
 {
     float result,temp;
