@@ -104,6 +104,28 @@ double Cot_for_radian(double operand1);
 
 //Abhishek'S Function declaration end
 
+float power(float operand1, float operand2);
+/**
+* finds the power of operand1 and operand2 and returns the result 
+* @param[in] operand3 
+* @param[in] operand4 
+* @return float value of the power of operand 1 and operand 2
+*/
+double degreetorad(double operand1);
+/**
+ * convert  degree to radian of operand 1 and returns the result
+ * @param[in] operand1
+ * @return radian
+ * 
+ 
+ */
+float tempconv(float operand1);
+/**
+ * conversion in Temperature unit of operand 1 and returns the result
+ * @param[in] operand1
+ * @return  converted temperture
+ 
+ */
 
 
 #endif

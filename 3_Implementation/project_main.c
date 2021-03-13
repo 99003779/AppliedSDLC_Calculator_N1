@@ -15,7 +15,7 @@ float calculator_operand4 = 0;
 float calculator_result=0;
 double calculator_operand5 = 0;
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, GCD, LCM, combination, factorial,permutation,log,Sqrroot,cbroot,Sindeg,Cosdeg,Tandeg,exp,mods,anti,anti2, EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, GCD, LCM, combination, factorial,permutation,log,Sqrroot,cbroot,Sindeg,Cosdeg,Tandeg,exp,mods,anti,anti2,Power,Degreetorad,Tempconv, EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -236,8 +236,32 @@ void calculator_menu(void)
             calculator_operand1, 
             AntilogBase2(calculator_operand1));
             getchar();
-            break;  
-        case 20:
+            break;
+        case Power:
+            printf("\n\t%d / %d = %d\nEnter to continue",
+            calculator_operand1,
+            calculator_operand2);
+            power(calculator_operand1, calculator_operand2);
+
+            getchar();
+            break;
+
+        case Degreetorad:
+            printf("\n\t%d / %d = %d\nEnter to continue",
+            calculator_operand1);
+            degreetorad(calculator_operand5);
+            
+            getchar();
+            break;
+
+        case Tempconv:
+            printf("\n\t%d / %d = %d\nEnter to continue",
+            calculator_operand1);
+            tempconv(calculator_operand3);
+            
+            getchar();
+            break;
+        case 23:
             exit(0);
             break;
         default:

@@ -102,3 +102,18 @@ float Permutation(float operand1,float operand2)
     return Factorial(operand1) / Factorial(operand1-operand2);
     }
 }
+
+float power(float operand1, float operand2)
+{
+    return pow(operand1, operand2);
+}
+double degreetorad(double operand1)
+{
+    double pi = 3.14159265359;
+    return (operand1 * pi / 180);
+}
+float tempconv(float operand1)
+{
+     return ((operand1 * 9/5)+ 32);
+     //return( (conv_inp*9/5)+32);
+}

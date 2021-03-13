@@ -119,6 +119,23 @@ void test_AntilogBase2_testcase1(void);
 void test_AntilogBase2_testcase2(void);
 void test_AntilogBase2_testcase3(void);
 
+void test_power(void);
+void test_power2(void);
+void test_power3(void);
+void test_power4(void);
+void test_power5(void);
+
+void test_degreetorad(void);
+void test_degreetorad2(void);
+void test_degreetorad3(void);
+void test_degreetorad4(void);
+void test_degreetorad5(void);
+
+void test_tempconv(void);
+void test_tempconv2(void);
+void test_tempconv3(void);
+void test_tempconv4(void);
+void test_tempconv5(void);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -240,7 +257,25 @@ RUN_TEST(test_AntilogBase2_testcase1);
 RUN_TEST(test_AntilogBase2_testcase2);
 RUN_TEST(test_AntilogBase2_testcase3);
 
+RUN_TEST(test_power);
+RUN_TEST(test_power2);
+RUN_TEST(test_power3);
+RUN_TEST(test_power4);
+RUN_TEST(test_power5);
 
+RUN_TEST(test_degreetorad);
+RUN_TEST(test_degreetorad2);
+RUN_TEST(test_degreetorad3);
+RUN_TEST(test_degreetorad4);
+RUN_TEST(test_degreetorad5);
+
+RUN_TEST(test_tempconv);
+RUN_TEST(test_tempconv2);
+RUN_TEST(test_tempconv3);
+RUN_TEST(test_tempconv4);
+RUN_TEST(test_tempconv5);
+
+  /* Close the Unity Test Framework */
   return UNITY_END();
 }
 
@@ -730,4 +765,68 @@ void test_AntilogBase2_testcase3(void) {
   TEST_ASSERT_EQUAL(1 ,AntilogBase2(0));
 
 }
+//power test cases
+void test_power(void)
+{
+    TEST_ASSERT_EQUAL(16, power(2, 4));
+}
+void test_power2(void)
+{
+    TEST_ASSERT_EQUAL(9, power(3, 2));
+}
+void test_power3(void)
+{
+    TEST_ASSERT_EQUAL(125, power(5, 3));
+}
+void test_power4(void)
+{
+    TEST_ASSERT_EQUAL(6084, power(78, 2));
+}
+void test_power5(void)
+{
+    TEST_ASSERT_EQUAL(104976, power(18, 4));
+}
 
+//degree test cases
+void test_degreetorad(void)
+{
+    TEST_ASSERT_EQUAL(10, degreetorad(572.958));
+}
+void test_degreetorad2(void)
+{
+    TEST_ASSERT_EQUAL(6, degreetorad(343.775));
+}
+void test_degreetorad3(void)
+{
+    TEST_ASSERT_EQUAL(2, degreetorad(171.887));
+}
+void test_degreetorad4(void)
+{
+    TEST_ASSERT_EQUAL(20, degreetorad(1145.92));
+}
+void test_degreetorad5(void)
+{
+    TEST_ASSERT_EQUAL(6, degreetorad(401.07));
+}
+
+//temperature test cases
+void test_tempconv(void)
+{
+    TEST_ASSERT_EQUAL(86, tempconv(30));
+}
+void test_tempconv2(void)
+{
+    TEST_ASSERT_EQUAL(32, tempconv(0));
+}
+void test_tempconv3(void)
+{
+    TEST_ASSERT_EQUAL(168.8, tempconv(76));
+}
+void test_tempconv4(void)
+{
+    TEST_ASSERT_EQUAL(113, tempconv(45));
+}
+void test_tempconv5(void)
+{
+    TEST_ASSERT_EQUAL(212, tempconv(100));
+}
