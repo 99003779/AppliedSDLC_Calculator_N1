@@ -15,7 +15,7 @@ src/calc_operat.c\
 test/test_calculator_operations.c\
 unity/unity.c
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
 INC	= -Iinc\
@@ -27,7 +27,7 @@ INC	= -Iinc\
 INCLUDE_LIBS =
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).exe
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
@@ -39,7 +39,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).exe
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
