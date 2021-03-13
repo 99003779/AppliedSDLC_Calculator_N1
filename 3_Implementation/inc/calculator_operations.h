@@ -51,13 +51,7 @@ float divide(float operand1, float operand2);
 * @param[in] operand4 
 * @return Result of operand1 * operand2
 */
-
-int gcd(int operand1, int operand2);
-float lcm(int operand1, int operand2);
-float Combination(float operand1, float operand2);
-float Permutation(float operand1, float operand2);
-float Factorial(float operand1);
-float LOG(float operand1);
+float tempconv(float operand1);
 float Exponential(float operand1, float operand2);
 float Modulus(int operand1, int operand2);
 float Antilog10(double operand1);
@@ -127,5 +121,12 @@ float tempconv(float operand1);
  
  */
 
-
+float Factorial(float operand1);
+int gcd(int operand1, int operand2);
+float lcm(int operand1, int operand2);
+float Combination(float operand1, float operand2);
+float Permutation(float operand1, float operand2);
+float Factorial(float operand1);
+float LOG(float operand1);
+float Exponential(float operand1, float operand2);
 #endif
